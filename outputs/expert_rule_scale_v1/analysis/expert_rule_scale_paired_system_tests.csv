@@ -1,0 +1,10 @@
+candidate,comparator,metric,improvement_direction,mean_improvement,median_improvement,endpoint_wins,endpoints,endpoint_bootstrap_ci95_low,endpoint_bootstrap_ci95_high,exact_two_sided_sign_flip_p,holm_across_three_comparators_two_metrics_p
+expert_rule_scale,fixed_expert_identity,spearman,rule-comparator,0.018604261423667025,0.0,2,9,0.0,0.04603833419624528,0.5,1.0
+expert_rule_scale,fixed_expert_identity,raw_r2,rule-comparator,0.37049178923073645,0.0,2,9,0.0,1.0706340999978465,0.5,1.0
+expert_rule_scale,fixed_expert_identity,rmse_over_y_std,comparator-rule,0.07206361167572264,0.0,2,9,0.0,0.19684669935545512,,
+expert_rule_scale,route_scale,spearman,rule-comparator,0.03266696241787139,0.023949386497223002,8,9,0.013106138517831786,0.05557805811503019,0.0078125,0.0390625
+expert_rule_scale,route_scale,raw_r2,rule-comparator,0.05152431718246107,0.04284885167124364,8,9,0.017039587942039032,0.09419622247043563,0.01953125,0.078125
+expert_rule_scale,route_scale,rmse_over_y_std,comparator-rule,0.029645385247405134,0.03152600035770714,8,9,0.012268048087752023,0.050533057855907004,,
+expert_rule_scale,full_automl,spearman,rule-comparator,0.03934835527067054,0.02074188974508684,9,9,0.01875349721690032,0.06139919929930277,0.00390625,0.0234375
+expert_rule_scale,full_automl,raw_r2,rule-comparator,0.052515490742671964,0.02933983167441745,8,9,0.01952295432068951,0.0860971361023967,0.0234375,0.078125
+expert_rule_scale,full_automl,rmse_over_y_std,comparator-rule,0.03236554736626354,0.02146109597469681,8,9,0.013736545470602372,0.051525800579991815,,

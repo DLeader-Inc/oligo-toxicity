@@ -1,0 +1,146 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v1",
+  "policy": "fixed_expert",
+  "dataset": "mouse_hepatic",
+  "outer_partition": 5,
+  "outer_train_rows": 2161,
+  "outer_test_rows": 540,
+  "outer_train_groups": 55,
+  "outer_test_groups": 14,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "current_balanced",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.1
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    150543,
+    158462,
+    166381,
+    174300,
+    182219
+  ],
+  "selection_audit": {
+    "selected_reason": "predeclared expert-engineered reference; no data-driven choice",
+    "pareto_candidates": 1,
+    "one_se_candidates": 1
+  },
+  "scale_rule": {
+    "kind": "fixed_expert",
+    "reason": "predeclared A/B, current_balanced, identity"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/integrated_feature_automl_v2/formal/fold_checkpoints/mouse_hepatic__partition5__inner_scores.csv.gz",
+  "models": [
+    {
+      "member": 1,
+      "seed": 150543,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_1__legacy_branch_a.joblib",
+      "sha256": "a36a733c3ed23cce108dd499d8d87faa79a791eb0e46a373df6a58f9904b60b1",
+      "feature_count": 1091
+    },
+    {
+      "member": 1,
+      "seed": 150543,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_1__legacy_branch_b.joblib",
+      "sha256": "5b7ad83c2a948e2212079bfb67c93d794f9de124c93b1d9bc58b8d80fc2f85b9",
+      "feature_count": 833
+    },
+    {
+      "member": 2,
+      "seed": 158462,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_2__legacy_branch_a.joblib",
+      "sha256": "fcf4f083b5bea26fee8e53dda7d2c9ffe9951dc95132e99fc3eeca2f7719d5a7",
+      "feature_count": 1091
+    },
+    {
+      "member": 2,
+      "seed": 158462,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_2__legacy_branch_b.joblib",
+      "sha256": "020fd697ab242505eee2f5c8150db33cd232ac0950cc5479a3d580cc1e318750",
+      "feature_count": 833
+    },
+    {
+      "member": 3,
+      "seed": 166381,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_3__legacy_branch_a.joblib",
+      "sha256": "f0895acd1e45c14349c8dc1e911103bd9876f14b4d262264840d7deb63c36643",
+      "feature_count": 1091
+    },
+    {
+      "member": 3,
+      "seed": 166381,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_3__legacy_branch_b.joblib",
+      "sha256": "54160f76751ea21d9e90a040dda64a757de0004fd9fbf2b99846f494829a0b93",
+      "feature_count": 833
+    },
+    {
+      "member": 4,
+      "seed": 174300,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_4__legacy_branch_a.joblib",
+      "sha256": "76078405c4c50e1613a2fc941d5540de54a55d4a7a9c4d625078b1e11e95edd7",
+      "feature_count": 1091
+    },
+    {
+      "member": 4,
+      "seed": 174300,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_4__legacy_branch_b.joblib",
+      "sha256": "9da7c43ea3c7daad05ad763aa955e28ee775e0b93c0d4c56204a3b973ff01a05",
+      "feature_count": 833
+    },
+    {
+      "member": 5,
+      "seed": 182219,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_5__legacy_branch_a.joblib",
+      "sha256": "fe1c432cf416c81953776f41f8b59a82820ee9690bc886b658424088f145296d",
+      "feature_count": 1091
+    },
+    {
+      "member": 5,
+      "seed": 182219,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/member_5__legacy_branch_b.joblib",
+      "sha256": "c109c37d515ea0c332cbdefcce6eb0b868a0d6d93a34fec583c4b71fc3c6a753",
+      "feature_count": 833
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/mouse_hepatic/partition_5/membership.json"
+}

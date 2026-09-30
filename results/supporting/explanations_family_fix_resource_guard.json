@@ -1,0 +1,32 @@
+{
+  "schema_version": "resource_guard_summary_v1",
+  "status": "completed",
+  "command": [
+    "/home/z/miniconda3/envs/rna_toxi/bin/python",
+    "scripts/export_feature_automl_explanations.py",
+    "--run-dir",
+    "outputs/expert_rule_scale_v1/expert_rule_scale",
+    "--output-dir",
+    "outputs/expert_rule_scale_v1/expert_rule_scale/explanations",
+    "--global-only"
+  ],
+  "pid": 524633,
+  "return_code": 0,
+  "started_at_utc": "2026-08-30T13:13:57.072460+00:00",
+  "finished_at_utc": "2026-08-30T13:18:20.122947+00:00",
+  "elapsed_seconds": 263.05,
+  "samples": 128,
+  "peak_process_tree_rss_gib": 3.1907,
+  "minimum_host_available_gib": 75.5199,
+  "peak_gpu_used_mib": 5528.0,
+  "minimum_disk_free_gib": 99.2159,
+  "termination_reasons": [],
+  "limits": {
+    "min_host_available_gib": 20.0,
+    "max_process_rss_gib": 48.0,
+    "max_gpu_used_mib": 34816.0,
+    "min_disk_free_gib": 20.0,
+    "breach_samples": 2
+  },
+  "telemetry_csv": "/home/z/rna_toxi_model/outputs/expert_rule_paper_v3_analysis/resource_guard/explanations_family_fix_telemetry.csv"
+}

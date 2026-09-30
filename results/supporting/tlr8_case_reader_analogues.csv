@@ -1,0 +1,3 @@
+role,row_index,sequence,measured,sequence_identity,chemistry_identity,T_fraction,G_fraction,TCC_count,TT_count,TG_count,GG_count,exact_sequence_match,exact_input_match,citation
+nearest_measured_analogue,70,GGTCCATACCCAAGGCATCC,1.0,0.6,1.0,0.15,0.2,2,0,0,2,False,False,"Alharbi et al. 2020, Nucleic Acids Res. 48:7052"
+informative_contrast,144,TCCCATCCCTTCTGCTGCCA,3.95,0.5,1.0,0.3,0.1,2,1,2,0,False,False,"Alharbi et al. 2020, Nucleic Acids Res. 48:7052"

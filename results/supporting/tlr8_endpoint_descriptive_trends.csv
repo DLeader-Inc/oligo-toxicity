@@ -1,0 +1,8 @@
+feature,spearman,p_value_descriptive_unadjusted,unique_values,claim_boundary
+T_fraction,0.4680952454138957,7.582393452140024e-12,13,descriptive association in the complete source endpoint; not held-out performance or causality
+G_fraction,-0.4658255505610203,9.85524796871755e-12,10,descriptive association in the complete source endpoint; not held-out performance or causality
+C_fraction,-0.11958256159375845,0.09851455123178297,12,descriptive association in the complete source endpoint; not held-out performance or causality
+TCC_count,-0.10372008681627135,0.1522391208479884,4,descriptive association in the complete source endpoint; not held-out performance or causality
+TT_count,0.419760136548951,1.3555889242743878e-09,8,descriptive association in the complete source endpoint; not held-out performance or causality
+TG_count,-0.05322759490702094,0.4634077748190255,6,descriptive association in the complete source endpoint; not held-out performance or causality
+GG_count,-0.4292814489448887,5.20029782454339e-10,6,descriptive association in the complete source endpoint; not held-out performance or causality

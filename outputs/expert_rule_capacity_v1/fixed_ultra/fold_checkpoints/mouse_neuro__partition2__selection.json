@@ -1,0 +1,152 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v2",
+  "policy": "expert_rule_fixed_ultra",
+  "dataset": "mouse_neuro",
+  "outer_partition": 2,
+  "outer_train_rows": 2155,
+  "outer_test_rows": 541,
+  "outer_train_groups": 19,
+  "outer_test_groups": 4,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "ultra_compact",
+  "selected_xgboost_params": {
+    "n_estimators": 150,
+    "max_depth": 2,
+    "learning_rate": 0.03,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.2
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    170254,
+    178173,
+    186092,
+    194011,
+    201930
+  ],
+  "selection_audit": {
+    "selected_reason": "predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice",
+    "pareto_candidates": 1,
+    "one_se_candidates": 1
+  },
+  "scale_rule": {
+    "kind": "outer_train_rule",
+    "reason": "nonnegative_skewness_at_most_2",
+    "minimum": 0.0,
+    "fisher_pearson_skewness": 0.619373698478359,
+    "threshold": 2.0,
+    "selected_transform": "identity",
+    "reason_detail": "predeclared expert A/B and ultra_compact; target scale determined only from outer-train labels"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/full_automl/fold_checkpoints/mouse_neuro__partition2__inner_scores.csv.gz",
+  "reused_compatible_outer_artifacts_from": null,
+  "models": [
+    {
+      "member": 1,
+      "seed": 170254,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_1__legacy_branch_a.joblib",
+      "sha256": "e5545c9bba242ba0de4c14f02fa22474dcfa22ee9bf636cf4e0fe5eac314018f",
+      "feature_count": 1088
+    },
+    {
+      "member": 1,
+      "seed": 170254,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_1__legacy_branch_b.joblib",
+      "sha256": "873d89f79519343fd0fa3369aea48c2424fb08b79c50de70c28afa8495302828",
+      "feature_count": 830
+    },
+    {
+      "member": 2,
+      "seed": 178173,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_2__legacy_branch_a.joblib",
+      "sha256": "b5baf46b4f793fea66204deff6efe2ee51662c5d3dfefb1f9a2ead1faffa6974",
+      "feature_count": 1088
+    },
+    {
+      "member": 2,
+      "seed": 178173,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_2__legacy_branch_b.joblib",
+      "sha256": "06ae88ab46e6bd0c0a2c40a207e6b94506c35ccf31ef3a8b1ffe4a1ee3bf7dc1",
+      "feature_count": 830
+    },
+    {
+      "member": 3,
+      "seed": 186092,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_3__legacy_branch_a.joblib",
+      "sha256": "61fa5398d8616cceaca5d8e38241edaadd72cafef2678a7c0a72d696abf763ee",
+      "feature_count": 1088
+    },
+    {
+      "member": 3,
+      "seed": 186092,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_3__legacy_branch_b.joblib",
+      "sha256": "097002059f1117d8c07851699dbee1429fb141b63d383947528c07b6e170a5fd",
+      "feature_count": 830
+    },
+    {
+      "member": 4,
+      "seed": 194011,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_4__legacy_branch_a.joblib",
+      "sha256": "23cbc8e7fd8fc8866c3cd2c9de7b787a9f50b2115e8193847bdaabf6708452cf",
+      "feature_count": 1088
+    },
+    {
+      "member": 4,
+      "seed": 194011,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_4__legacy_branch_b.joblib",
+      "sha256": "68187341ec8430c22211da01331edc042fd91e29ee6fd7130d0d0e86a3ead9a8",
+      "feature_count": 830
+    },
+    {
+      "member": 5,
+      "seed": 201930,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_5__legacy_branch_a.joblib",
+      "sha256": "abafcc390f7b1e104ed559da8afec7b26b44dd86bbcfc99f7b3f955273f5bf67",
+      "feature_count": 1088
+    },
+    {
+      "member": 5,
+      "seed": 201930,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/member_5__legacy_branch_b.joblib",
+      "sha256": "e07139b11d08af6c866e2510ceb6093a3082291d083f4d0a6726db7352f6fe0b",
+      "feature_count": 830
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/mouse_neuro/partition_2/membership.json"
+}

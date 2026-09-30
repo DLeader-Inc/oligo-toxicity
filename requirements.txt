@@ -1,0 +1,17 @@
+# Python 3.11; numerical versions used for the archived experiments.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==2.1.4
+joblib==1.5.3
+pyarrow==24.0.0
+rdkit==2026.3.1
+matplotlib==3.10.9
+seaborn==0.13.2
+pytest==8.4.2
+ViennaRNA==2.7.2
+networkx==3.6.1
+tqdm==4.67.3
+# Install torch separately using the CPU or CUDA command in README.md.
+# Install OligoGym from the pinned commit with --no-deps, as documented.

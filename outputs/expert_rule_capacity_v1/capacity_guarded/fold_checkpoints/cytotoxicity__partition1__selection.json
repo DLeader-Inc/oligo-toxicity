@@ -1,0 +1,190 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v2",
+  "policy": "expert_rule_capacity_guarded",
+  "dataset": "cytotoxicity",
+  "outer_partition": 1,
+  "outer_train_rows": 704,
+  "outer_test_rows": 64,
+  "outer_train_groups": 6,
+  "outer_test_groups": 2,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "current_balanced",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.1
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    100104,
+    108023,
+    115942,
+    123861,
+    131780
+  ],
+  "selection_audit": {
+    "selected_reason": "retained current_balanced because no challenger passed the paired stability and two-metric guard",
+    "incumbent_capacity": "current_balanced",
+    "admissible_capacities": [
+      "compact_regularized",
+      "conservative_shallow",
+      "current_balanced",
+      "deep_regularized_control"
+    ],
+    "excluded_diagnostic_capacity": "ultra_compact",
+    "challenger_comparisons": [
+      {
+        "candidate": "compact_regularized",
+        "paired_folds": 3,
+        "mean_balanced_score_delta": 0.00783752659143,
+        "paired_delta_se": 0.02353992525047984,
+        "mean_spearman_delta": 0.003679676730948452,
+        "mean_raw_r2_delta": 0.011995376451911607,
+        "accepted": false
+      },
+      {
+        "candidate": "conservative_shallow",
+        "paired_folds": 3,
+        "mean_balanced_score_delta": 0.01887511563075084,
+        "paired_delta_se": 0.019979298319026922,
+        "mean_spearman_delta": 0.010270435645489129,
+        "mean_raw_r2_delta": 0.027479795616012565,
+        "accepted": false
+      },
+      {
+        "candidate": "deep_regularized_control",
+        "paired_folds": 3,
+        "mean_balanced_score_delta": 0.00018955985797974861,
+        "paired_delta_se": 0.003930198510507594,
+        "mean_spearman_delta": 0.0075664063638574515,
+        "mean_raw_r2_delta": -0.007187286647897979,
+        "accepted": false
+      }
+    ],
+    "accepted_challengers": 0,
+    "pareto_candidates": 1,
+    "one_se_candidates": null
+  },
+  "scale_rule": {
+    "kind": "outer_train_rule",
+    "reason": "nonnegative_skewness_at_most_2",
+    "minimum": 0.0,
+    "fisher_pearson_skewness": 0.4068438003971617,
+    "threshold": 2.0,
+    "selected_transform": "identity",
+    "reason_detail": "expert A/B is fixed; grouped inner CV selects capacity from the admissible grid; ultra_compact is retained only as a fixed underfitting control"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/full_automl/fold_checkpoints/cytotoxicity__partition1__inner_scores.csv.gz",
+  "reused_compatible_outer_artifacts_from": "/home/z/rna_toxi_model/outputs/expert_rule_scale_v1/expert_rule_scale",
+  "models": [
+    {
+      "member": 1,
+      "seed": 100104,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_1__legacy_branch_a.joblib",
+      "sha256": "760c4aa71f5bfc0bede3c6d66391404d46682b8bffc004f5ce40f38792f6710f",
+      "feature_count": 1088
+    },
+    {
+      "member": 1,
+      "seed": 100104,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_1__legacy_branch_b.joblib",
+      "sha256": "2c4032998d82be1647a9aa63ffbf9b00358ea6539a99a7e99b8c7d368088e7d5",
+      "feature_count": 830
+    },
+    {
+      "member": 2,
+      "seed": 108023,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_2__legacy_branch_a.joblib",
+      "sha256": "3019aeaa36e9964d1a3d4d8dbaa0bc24044d3d9f1f41e68e9f35d11d3e99dcb6",
+      "feature_count": 1088
+    },
+    {
+      "member": 2,
+      "seed": 108023,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_2__legacy_branch_b.joblib",
+      "sha256": "ff0bfd432716ad9b6ec99fa686b4713583677e08eaa327e0580ffb6e096afec7",
+      "feature_count": 830
+    },
+    {
+      "member": 3,
+      "seed": 115942,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_3__legacy_branch_a.joblib",
+      "sha256": "8cc830f7a7ea7eda05b90a77d2471a41bc4e316cc970a298f6c2720164cb342c",
+      "feature_count": 1088
+    },
+    {
+      "member": 3,
+      "seed": 115942,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_3__legacy_branch_b.joblib",
+      "sha256": "f9f03a290ee16d3ee7a93574744d55f54b6888c8306d8d5b3e951b2d46027029",
+      "feature_count": 830
+    },
+    {
+      "member": 4,
+      "seed": 123861,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_4__legacy_branch_a.joblib",
+      "sha256": "3755e4cf0d10075b11dce98b22692ec9badd134046eba3cf802a5f4ad22c4460",
+      "feature_count": 1088
+    },
+    {
+      "member": 4,
+      "seed": 123861,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_4__legacy_branch_b.joblib",
+      "sha256": "6ac2a4ea4527e9cee7ae73ace1cec223639cb8ee72c046fa4fbbeb64130f2ae2",
+      "feature_count": 830
+    },
+    {
+      "member": 5,
+      "seed": 131780,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_5__legacy_branch_a.joblib",
+      "sha256": "345eec4d9dc933471c120cf4fd31d447c6d9b2283cf432629a45a564656b6896",
+      "feature_count": 1088
+    },
+    {
+      "member": 5,
+      "seed": 131780,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_1/member_5__legacy_branch_b.joblib",
+      "sha256": "17eac6c5e121fc45d34254710894968b29b291f153e9f04df25838c197308268",
+      "feature_count": 830
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/capacity_guarded/outer_models/cytotoxicity/partition_1/membership.json"
+}

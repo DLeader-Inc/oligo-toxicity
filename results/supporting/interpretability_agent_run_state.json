@@ -1,0 +1,65 @@
+{
+  "schema_version": "paper_interpretability_agent_loop_v1",
+  "status": "PASS",
+  "rounds": [
+    {
+      "round": 1,
+      "zh": {
+        "schema_version": "paper_interpretability_story_audit_v1",
+        "language": "zh",
+        "status": "PASS",
+        "checks": {
+          "training_source": true,
+          "descriptor_source_boundary": true,
+          "endpoint_trend": true,
+          "case_prediction": true,
+          "cross_descriptor_story": true,
+          "case_ablation": true,
+          "analogue_contrast": true,
+          "fixed_chemistry_limit": true,
+          "causal_boundary": true,
+          "falsification": true
+        },
+        "errors": []
+      },
+      "en": {
+        "schema_version": "paper_interpretability_story_audit_v1",
+        "language": "en",
+        "status": "PASS",
+        "checks": {
+          "training_source": true,
+          "descriptor_source_boundary": true,
+          "endpoint_trend": true,
+          "case_prediction": true,
+          "cross_descriptor_story": true,
+          "case_ablation": true,
+          "analogue_contrast": true,
+          "fixed_chemistry_limit": true,
+          "causal_boundary": true,
+          "falsification": true
+        },
+        "errors": []
+      }
+    }
+  ],
+  "registered_tools": [
+    "training_data_provenance",
+    "descriptor_provenance_registry",
+    "endpoint_trend_analysis",
+    "same_model_treeshap_reconciliation",
+    "outer_train_family_deletion",
+    "measured_analogue_retrieval",
+    "reviewed_literature_ledger",
+    "bilingual_report_template",
+    "deterministic_claim_boundary_audit"
+  ],
+  "general_runtime": "src/agents/evidence_runtime.py",
+  "general_runtime_capabilities": [
+    "registered deterministic tools and templates",
+    "PubMed/Europe PMC/Crossref/patent/ClinicalTrials retrieval",
+    "bounded LLM synthesis with repair attempts",
+    "independent adversarial review",
+    "resume, hashes, manifests and machine audit"
+  ],
+  "current_run_mode": "deterministic evidence tools plus audited bilingual synthesis; no unreviewed retrieval candidate promoted"
+}

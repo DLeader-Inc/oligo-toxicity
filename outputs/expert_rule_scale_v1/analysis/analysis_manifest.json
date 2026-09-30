@@ -1,0 +1,27 @@
+{
+  "schema_version": "expert_rule_scale_post_audit_analysis_v1",
+  "policies": [
+    "fixed_expert_identity",
+    "route_scale",
+    "full_automl",
+    "expert_rule_scale",
+    "expert_nested_scale"
+  ],
+  "outer_rows_per_policy": 14450,
+  "outer_endpoint_partitions_per_policy": 45,
+  "inference_unit": "nine endpoints after averaging five paired outer-fold differences",
+  "test": "two-sided exhaustive 2^9 endpoint sign-flip for Spearman and raw-scale R2",
+  "bootstrap": {
+    "unit": "endpoint",
+    "replicates": 200000
+  },
+  "multiplicity": "Holm across three comparators x two primary metrics",
+  "oof_sha256": {
+    "fixed_expert_identity": "536c437a6f807f68d780f49a33e6b9663d0e3ad96e95c93f175dc7224e7b9c04",
+    "route_scale": "428cac991f21c549c58834c6722da0734659add80909aa7f3b9cbf9c86b37901",
+    "full_automl": "dbaa5fa4a79d9cb2b5d45e4b51fcb9b126fd30974cbacbae1d905ce499ff8de3",
+    "expert_rule_scale": "81c31ac614420a5acde503c0bddc7cf384fcbeeb38bc4827602bdbf010526291",
+    "expert_nested_scale": "56c336420b0f45983d5eb9738cce89bc3e6fa817e6fbadeeb97ad6ede6920f3f"
+  },
+  "development_timing_boundary": "expert_rule_scale was specified after reviewing earlier outer-policy results; this is a strict grouped retrospective development estimate, not independent confirmation"
+}

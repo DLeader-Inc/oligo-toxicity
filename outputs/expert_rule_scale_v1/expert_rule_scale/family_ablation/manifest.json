@@ -1,0 +1,14 @@
+{
+  "schema_version": "outer_heldout_descriptor_family_ablation_v1",
+  "policy": [
+    "expert_rule_scale"
+  ],
+  "families": [
+    "registry",
+    "motif",
+    "chemical_modification"
+  ],
+  "outer_partitions": 45,
+  "seed_count": 5,
+  "claim_boundary": "functional dependence of refitted models on descriptor families; not a biological causal effect"
+}

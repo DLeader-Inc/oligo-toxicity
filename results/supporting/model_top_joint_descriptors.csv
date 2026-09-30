@@ -1,0 +1,46 @@
+dataset,model_scale,feature,mean_signed_contribution,mean_absolute_contribution,positive_fraction,heldout_member_rows,rank,normalized_absolute_mass,interaction_kind,plain_language_zh,interaction_rank
+cytotoxicity,y,pint_mod_transition_L_L,-0.0034736410394726,0.0245910270057246,0.3902777777777778,2880,1,0.0587780313762061,chemistry×regional_context,相邻糖转换 L L,1
+cytotoxicity,y,pint_base_C__mod_L__region_wing5,0.0020968904489159,0.0198840514498038,0.5277777777777778,2880,2,0.0475273114754657,base×sugar×position,碱基 C × 糖 L × 区域 5′翼区,2
+cytotoxicity,y,pint_motif_GG__mod_L,0.0114178869329205,0.0172977580793182,0.5833333333333334,2880,3,0.0413454943092658,motif×chemistry_or_position,短序列 GG × 糖 L,3
+cytotoxicity,y,scint_motif_GG_overlap_L,0.0118548099404594,0.0158921998083466,0.5788194444444444,2880,4,0.0379858970003359,motif×chemistry_or_position,序列–化学交互 motif GG overlap L,4
+cytotoxicity,y,ucontext__pool_wing5_sugar_D,-0.000300150280414,0.0091484159308843,0.525,2880,8,0.0218667515798719,chemistry×landmark_position,区域汇总 5′翼区 的糖 D,5
+mouse_hepatic,log1p(y),ucontext__pool_wing5_sugar_E,0.0041007502982197,0.0633592915140072,0.4359866716031099,13505,5,0.0214945178229803,chemistry×landmark_position,区域汇总 5′翼区 的糖 E,1
+mouse_hepatic,log1p(y),pint_mod_transition_E_E,0.007110280138859,0.0427254870366274,0.5044057756386523,13505,7,0.0144945393273735,chemistry×regional_context,相邻糖转换 E E,2
+mouse_hepatic,log1p(y),ucontext__anchor_5p_03_sugar_E,0.0028326693367523,0.0341638936883235,0.5142539800074046,13505,9,0.0115900352456392,chemistry×landmark_position,标志位置 5p 03 的糖 E,3
+mouse_hepatic,log1p(y),pint_base_G__mod_E__region_wing5,-0.0001129693786039,0.0317040983253569,0.3087745279526101,13505,10,0.0107555543982882,base×sugar×position,碱基 G × 糖 E × 区域 5′翼区,4
+mouse_hepatic,log1p(y),pint_base_A__link_PS__region_wing5,-0.0029225193927223,0.0297797866815357,0.5470566456867827,13505,12,0.0101027353730638,base×backbone×position,碱基 A × 骨架 PS × 区域 5′翼区,5
+mouse_neuro,y,pint_base_G__mod_D__region_gap_mid,0.0023676727879073,0.2753766313421841,0.3379080118694362,13480,2,0.0638245938795649,base×sugar×position,碱基 G × 糖 D × 区域 缺口中部,1
+mouse_neuro,y,pint_base_G__mod_D__region_gap_last3,0.0049525314737498,0.2228484112481954,0.3520029673590504,13480,3,0.0516500230077567,base×sugar×position,碱基 G × 糖 D × 区域 DNA缺口 last3,2
+mouse_neuro,y,pint_motif_GG__mod_D,-0.0012617638553903,0.0723311928260911,0.2396142433234421,13480,8,0.0167643455599298,motif×chemistry_or_position,短序列 GG × 糖 D,3
+mouse_neuro,y,scint_motif_TG_overlap_gap_mid,0.0070498472680019,0.0601948262629298,0.2286350148367952,13480,9,0.0139514755524352,motif×chemistry_or_position,序列–化学交互 motif TG overlap 缺口中部,4
+mouse_neuro,y,pint_base_G__mod_D__region_gap_first3,-0.0003566440435275,0.0590531711720858,0.353486646884273,13480,10,0.013686871863413,base×sugar×position,碱基 G × 糖 D × 区域 DNA缺口 first3,5
+neurotoxicity_lna,y,pint_base_G__mod_D__region_gap_mid,0.5483315980543587,3.173934181441113,0.6295652173913043,10925,2,0.0459824288851576,base×sugar×position,碱基 G × 糖 D × 区域 缺口中部,1
+neurotoxicity_lna,y,pint_motif_GG__mod_D,0.0208210462181737,2.1251805073281997,0.8105263157894737,10925,3,0.0307885910545165,motif×chemistry_or_position,短序列 GG × 糖 D,2
+neurotoxicity_lna,y,pint_motif_TG__mod_L,0.1590327312007921,1.4952903427439368,0.8242562929061785,10925,4,0.0216630458974001,motif×chemistry_or_position,短序列 TG × 糖 L,3
+neurotoxicity_lna,y,pint_mod_transition_D_D,0.0070650926592426,1.2732159914833188,0.4832036613272311,10925,6,0.0184457397151332,chemistry×regional_context,相邻糖转换 D D,4
+neurotoxicity_lna,y,pint_base_G__mod_L__region_wing3,0.1185072095429597,1.1286713038961182,0.7290617848970252,10925,8,0.0163516459382144,base×sugar×position,碱基 G × 糖 L × 区域 3′翼区,5
+neurotoxicity_moe,y,pint_base_G__mod_D__region_gap_mid,0.0061781477531187,0.2807807932990553,0.3256728152403991,16535,1,0.0652492053621748,base×sugar×position,碱基 G × 糖 D × 区域 缺口中部,1
+neurotoxicity_moe,y,pint_base_G__mod_D__region_gap_last3,0.0176527823124104,0.2407217085265729,0.3401874811006955,16535,2,0.0559400805526422,base×sugar×position,碱基 G × 糖 D × 区域 DNA缺口 last3,2
+neurotoxicity_moe,y,pint_link_transition_PS_PS,-0.0068364144192181,0.0859098952641708,0.0828545509525249,16535,6,0.0199641589899079,chemistry×regional_context,pint 的骨架 transition PS PS,3
+neurotoxicity_moe,y,pint_motif_TG__mod_D,-0.0063337608749014,0.056463053012118,0.3347444814030844,16535,7,0.0131211586735532,motif×chemistry_or_position,短序列 TG × 糖 D,4
+neurotoxicity_moe,y,scint_motif_TG_overlap_gap_mid,0.0096568053510261,0.0563799299762421,0.214091321439371,16535,8,0.0131018421384922,motif×chemistry_or_position,序列–化学交互 motif TG overlap 缺口中部,5
+rat_hepatic,log1p(y),scint_motif_TG_overlap_gap_first3,0.0015029434702966,0.0296427421168755,0.2941176470588235,3570,2,0.0207473083169557,motif×chemistry_or_position,序列–化学交互 motif TG overlap DNA缺口 first3,1
+rat_hepatic,log1p(y),pint_base_A__mod_D__region_gap_first3,-0.0006793654201609,0.0259558122735522,0.4915966386554621,3570,4,0.0181667822002822,base×sugar×position,碱基 A × 糖 D × 区域 DNA缺口 first3,2
+rat_hepatic,log1p(y),pint_base_A__mod_D__region_gap_mid,0.001468540118212,0.0184828410760105,0.280672268907563,3570,6,0.0129363606398268,base×sugar×position,碱基 A × 糖 D × 区域 缺口中部,3
+rat_hepatic,log1p(y),pint_base_C__mod_D__region_gap_last3,0.0012343336820017,0.0158515438228104,0.5879551820728292,3570,9,0.0110946843478544,base×sugar×position,碱基 C × 糖 D × 区域 DNA缺口 last3,4
+rat_hepatic,log1p(y),pint_motif_TG__region_gap_first3,0.0015583658966898,0.0158382849464863,0.2086834733893557,3570,10,0.0110854043023731,motif×chemistry_or_position,短序列 TG × 区域 DNA缺口 first3,5
+rat_neuro,y,pint_base_G__mod_D__region_gap_mid,0.0011140558822577,0.1680141028230397,0.2411467116357504,8895,2,0.052888795866738,base×sugar×position,碱基 G × 糖 D × 区域 缺口中部,1
+rat_neuro,y,pint_base_G__mod_D__region_gap_last3,0.0053388827608635,0.1499430211885984,0.2647554806070826,8895,3,0.0472002391825305,base×sugar×position,碱基 G × 糖 D × 区域 DNA缺口 last3,2
+rat_neuro,y,pint_base_G__mod_M__region_wing3,0.0006481384275299,0.1154543088976254,0.5267003934794828,8895,5,0.0363436120695963,base×sugar×position,碱基 G × 糖 M × 区域 3′翼区,3
+rat_neuro,y,pint_base_G__mod_D__region_gap_first3,-0.0007130269436537,0.0483094351827897,0.3029792017987633,8895,9,0.0152072225657809,base×sugar×position,碱基 G × 糖 D × 区域 DNA缺口 first3,4
+rat_neuro,y,scint_motif_TG_overlap_gap_mid,0.003119123747572,0.0418299879391176,0.1793142214727374,8895,11,0.0131675713886366,motif×chemistry_or_position,序列–化学交互 motif TG overlap 缺口中部,5
+tlr7_immunotox,y,pint_base_T__mod_D__region_gap_mid,0.0044043595137877,0.0546272541116165,0.3699186991869919,1230,6,0.0247899338167457,base×sugar×position,碱基 T × 糖 D × 区域 缺口中部,1
+tlr7_immunotox,y,pint_base_T__mod_O__region_wing5,-0.0065093515944104,0.0389710016348456,0.3276422764227642,1230,9,0.0176851018234627,base×sugar×position,碱基 T × 糖 O × 区域 5′翼区,2
+tlr7_immunotox,y,pint_motif_GG__mod_O,0.0055302580954825,0.0371746809471671,0.6300813008130082,1230,10,0.0168699286706951,motif×chemistry_or_position,短序列 GG × 糖 O,3
+tlr7_immunotox,y,pint_motif_TT__mod_O,0.0013545387401576,0.0268270693082888,0.4886178861788618,1230,15,0.0121741662374406,motif×chemistry_or_position,短序列 TT × 糖 O,4
+tlr7_immunotox,y,pint_base_C__mod_O__region_wing5,0.0073347718859038,0.023699341622291,0.7357723577235772,1230,17,0.0107547984952095,base×sugar×position,碱基 C × 糖 O × 区域 5′翼区,5
+tlr8_immunotox,y,pint_base_G__mod_O__region_wing5,-0.022780037266808,1.1746201510130374,0.3357723577235772,1230,5,0.0228183826478225,base×sugar×position,碱基 G × 糖 O × 区域 5′翼区,1
+tlr8_immunotox,y,pint_motif_TT__mod_D,0.0773889177510083,0.6070953525227071,0.340650406504065,1230,9,0.0117935436793166,motif×chemistry_or_position,短序列 TT × 糖 D,2
+tlr8_immunotox,y,pint_motif_TT__region_gap_mid,0.0441791811215926,0.405701078441206,0.3373983739837398,1230,15,0.0078812222321588,motif×chemistry_or_position,短序列 TT × 区域 缺口中部,3
+tlr8_immunotox,y,pint_motif_TGT__mod_D,0.0956465924559994,0.379024268781418,0.1951219512195122,1230,17,0.0073629937221888,motif×chemistry_or_position,短序列 TGT × 糖 D,4
+tlr8_immunotox,y,pint_motif_TCC__mod_D,0.1654930674684862,0.3654696387456487,0.6609756097560976,1230,21,0.007099679037404,motif×chemistry_or_position,短序列 TCC × 糖 D,5

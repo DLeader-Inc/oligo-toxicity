@@ -1,0 +1,15 @@
+{
+  "mapping_version": "v10_definition_audited",
+  "features": 1921,
+  "unmapped": 0,
+  "aggregation": "sum of mean absolute feature contributions; not absolute value of a signed category sum",
+  "normalization": "within endpoint and fitted model scale; chemistry, positional and sequence annotations not double counted",
+  "feature_ranking_sha256": "1afe325d501b7855d3b5787d2ec4304396e9e1c53957d95e78f308fe037a6c30",
+  "assay_columns": [
+    "assay__dosage_mg_per_kg",
+    "assay__dosing_period_days",
+    "assay__num_doses"
+  ],
+  "encoding_context": "Auxiliary/overflow/canvas flags retained in CSV; zero attribution in all nine endpoints, omitted from figure",
+  "no_new_training": true
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "tlr8_potentiation_outer_heldout_automl_case_v1",
+  "selection": {
+    "dataset": "tlr7_immunotox",
+    "canonical_endpoint": "tlr8_potentiation",
+    "row_index": 184,
+    "selection_rule": "exact HELM and canonical sequence absent from every contributing outer-train member; >=2 eligible partitions; standardized absolute residual nearest endpoint median; ties by nearest measured analogue similarity then row index",
+    "eligible_outer_partitions": 3,
+    "outer_partition_ids": "[1, 4, 5]",
+    "endpoint_residual_median": 0.42849849871262213,
+    "standardized_absolute_residual": 0.42849849871262213,
+    "helm": "RNA1{m(G)[sp].m(U)[sp].m(C)[sp].m(C)[sp].m(G)[sp].d(T)[sp].d(A)[sp].d(C)[sp].d(C)[sp].d(T)[sp].d(C)[sp].d(C)[sp].d(A)[sp].d(C)[sp].d(C)[sp].m(C)[sp].m(A)[sp].m(C)[sp].m(C)[sp].m(G)}$$$$",
+    "sequence": "GTCCGTACCTCCACCCACCG",
+    "modification_pattern": "OOOOODDDDDDDDDDOOOOO",
+    "observed": 1.7,
+    "prediction": 1.2706149299939473,
+    "response_direction": "higher value indicates stronger TLR8 potentiation",
+    "label_unit": "relative reporter response; R848=1.0",
+    "source_citation": "Alharbi et al. 2020, Nucleic Acids Res. 48:7052",
+    "nearest_analogue_row_index": 70,
+    "contrast_row_index": 144,
+    "contrast_kind": "same_chemistry_outcome_divergent_sequence_contrast"
+  },
+  "nearest_measured_analogue": {
+    "rank": 1,
+    "dataset": "tlr7_immunotox",
+    "source_row_index": 70,
+    "sequence": "GGTCCATACCCAAGGCATCC",
+    "helm": "RNA1{m(G)[sp].m(G)[sp].m(U)[sp].m(C)[sp].m(C)[sp].d(A)[sp].d(T)[sp].d(A)[sp].d(C)[sp].d(C)[sp].d(C)[sp].d(A)[sp].d(A)[sp].d(G)[sp].d(G)[sp].m(C)[sp].m(A)[sp].m(U)[sp].m(C)[sp].m(C)}$$$$",
+    "modification_pattern": "OOOOODDDDDDDDDDOOOOO",
+    "target": "CTNNB1",
+    "measured_value": 1.0,
+    "sequence_identity": 0.6,
+    "normalized_levenshtein_identity": 0.6,
+    "chemistry_identity": 1.0,
+    "combined_similarity": 0.8,
+    "exact_sequence_match": false,
+    "exact_input_match": false,
+    "citation": "Alharbi et al. 2020, Nucleic Acids Res. 48:7052",
+    "source_scope": "publication_dataset_level",
+    "row_level_source_status": "dataset_publication_resolved_row_locator_not_recorded",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7367172/"
+    ],
+    "response_direction": "higher value indicates stronger TLR8 potentiation",
+    "label_unit": "relative reporter response; R848=1.0"
+  },
+  "informative_contrast": {
+    "contrast_kind": "same_chemistry_outcome_divergent_sequence_contrast",
+    "rank": 18,
+    "dataset": "tlr7_immunotox",
+    "source_row_index": 144,
+    "sequence": "TCCCATCCCTTCTGCTGCCA",
+    "helm": "RNA1{m(U)[sp].m(C)[sp].m(C)[sp].m(C)[sp].m(A)[sp].d(T)[sp].d(C)[sp].d(C)[sp].d(C)[sp].d(T)[sp].d(T)[sp].d(C)[sp].d(T)[sp].d(G)[sp].d(C)[sp].m(U)[sp].m(G)[sp].m(C)[sp].m(C)[sp].m(A)}$$$$",
+    "modification_pattern": "OOOOODDDDDDDDDDOOOOO",
+    "target": "LINC-PINT",
+    "measured_value": 3.95,
+    "sequence_identity": 0.5,
+    "normalized_levenshtein_identity": 0.5,
+    "chemistry_identity": 1.0,
+    "combined_similarity": 0.75,
+    "exact_sequence_match": false,
+    "exact_input_match": false,
+    "citation": "Alharbi et al. 2020, Nucleic Acids Res. 48:7052",
+    "source_scope": "publication_dataset_level",
+    "row_level_source_status": "dataset_publication_resolved_row_locator_not_recorded",
+    "source_urls": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7367172/"
+    ],
+    "response_direction": "higher value indicates stronger TLR8 potentiation",
+    "label_unit": "relative reporter response; R848=1.0"
+  },
+  "observed_model_dependence": {
+    "selected_routes": [
+      "legacy_fixed_50_50"
+    ],
+    "top_concepts_by_mean_absolute_contribution": [
+      {
+        "model_scale": "y",
+        "family": "motif",
+        "concept": "sequence_motif_and_position",
+        "mean_signed_contribution": -0.5168107650018935,
+        "mean_absolute_contribution": 0.5168107650018935,
+        "fold_seed_sign_consistency": 1.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 172
+      },
+      {
+        "model_scale": "y",
+        "family": "registry",
+        "concept": "sequence_motif_and_position",
+        "mean_signed_contribution": -0.2574615698645933,
+        "mean_absolute_contribution": 0.2574615698645933,
+        "fold_seed_sign_consistency": 1.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 121
+      },
+      {
+        "model_scale": "y",
+        "family": "chemical_modification",
+        "concept": "sequence_motif_and_position",
+        "mean_signed_contribution": -0.14349543689042246,
+        "mean_absolute_contribution": 0.14396806962196632,
+        "fold_seed_sign_consistency": 0.9333333333333333,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 392
+      },
+      {
+        "model_scale": "y",
+        "family": "registry",
+        "concept": "backbone_amount_and_position",
+        "mean_signed_contribution": -0.04231842595084648,
+        "mean_absolute_contribution": 0.04231842595084648,
+        "fold_seed_sign_consistency": 1.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 279
+      },
+      {
+        "model_scale": "y",
+        "family": "motif",
+        "concept": "literature_linked_or_g_rich_motif",
+        "mean_signed_contribution": 0.01601841342305003,
+        "mean_absolute_contribution": 0.01601841342305003,
+        "fold_seed_sign_consistency": 1.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 36
+      },
+      {
+        "model_scale": "y",
+        "family": "motif",
+        "concept": "sequence_composition",
+        "mean_signed_contribution": -0.013676391549900776,
+        "mean_absolute_contribution": 0.013676391549900776,
+        "fold_seed_sign_consistency": 1.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 25
+      },
+      {
+        "model_scale": "y",
+        "family": "chemical_modification",
+        "concept": "literature_linked_or_g_rich_motif",
+        "mean_signed_contribution": 0.007530343956022989,
+        "mean_absolute_contribution": 0.010915533311102383,
+        "fold_seed_sign_consistency": 0.7333333333333333,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 80
+      },
+      {
+        "model_scale": "y",
+        "family": "chemical_modification",
+        "concept": "backbone_amount_and_position",
+        "mean_signed_contribution": -2.4784418443838754e-05,
+        "mean_absolute_contribution": 2.4784418443838754e-05,
+        "fold_seed_sign_consistency": 0.26666666666666666,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 308
+      },
+      {
+        "model_scale": "y",
+        "family": "chemical_modification",
+        "concept": "cet_or_modified_base_context",
+        "mean_signed_contribution": 0.0,
+        "mean_absolute_contribution": 0.0,
+        "fold_seed_sign_consistency": 0.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 43
+      },
+      {
+        "model_scale": "y",
+        "family": "chemical_modification",
+        "concept": "gapmer_architecture_and_position",
+        "mean_signed_contribution": 0.0,
+        "mean_absolute_contribution": 0.0,
+        "fold_seed_sign_consistency": 0.0,
+        "members": 15,
+        "outer_partitions": 3,
+        "features": 90
+      }
+    ],
+    "interpretation": "Ranked same-model dependence is reported directly from the selected complete expert descriptor members; biological interpretation requires the separate evidence ledger."
+  },
+  "maximum_treeshap_additivity_residual": 5.933784450462554e-07,
+  "claim_boundaries": [
+    "reporter association is not clinical immunotoxicity",
+    "similarity does not establish a shared mechanism",
+    "TreeSHAP is same-model dependence on the fitted scale, not causality"
+  ]
+}

@@ -1,0 +1,64 @@
+dataset,stage,spearman,raw_r2,evidence_origin,endpoint,stage_label
+cytotoxicity,source_native,0.44279525377060525,-0.29478312017212027,project-recomputed from source-protocol held-out predictions,HeLa cytotoxicity,Protocol-aligned published-XGB/author-XGB composite rerun
+cytotoxicity,project_xgb,0.49675724537161203,0.05167112657664412,project-recomputed from source-protocol held-out predictions,HeLa cytotoxicity,Project XGBoost policy
+cytotoxicity,registry,0.6694327704736985,0.08225288802967538,project-recomputed as five partition-level metrics from formal v2 stage OOF,HeLa cytotoxicity,Registry One-Hot
+cytotoxicity,position,0.7578991976977796,0.18405921528677816,project-recomputed as five partition-level metrics from formal v2 stage OOF,HeLa cytotoxicity,Registry + position
+cytotoxicity,second_branch,0.6381767338365791,-0.041998434936660264,project-recomputed as five partition-level metrics from formal v2 stage OOF,HeLa cytotoxicity,Chemistry-context branch
+cytotoxicity,fixed_fusion,0.7248731604629123,0.10763081959838419,project-recomputed as five partition-level metrics from formal v2 stage OOF,HeLa cytotoxicity,Fixed 50:50 fusion
+cytotoxicity,automatic_system,0.7289430421335028,0.133561060508681,project-computed strict nested auto run,HeLa cytotoxicity,Automatic scale + capacity
+neurotoxicity_lna,source_native,0.27223361957474834,-0.07254316060118737,project-recomputed from source-protocol held-out predictions,LNA neuronal calcium,Protocol-aligned published-XGB/author-XGB composite rerun
+neurotoxicity_lna,project_xgb,0.37505870773670036,0.11721097049551447,project-recomputed from source-protocol held-out predictions,LNA neuronal calcium,Project XGBoost policy
+neurotoxicity_lna,registry,0.4036365499104123,0.17694814361591113,project-recomputed as five partition-level metrics from formal v2 stage OOF,LNA neuronal calcium,Registry One-Hot
+neurotoxicity_lna,position,0.42843433123412067,0.16970783763976227,project-recomputed as five partition-level metrics from formal v2 stage OOF,LNA neuronal calcium,Registry + position
+neurotoxicity_lna,second_branch,0.40861309420088715,0.14925297243442737,project-recomputed as five partition-level metrics from formal v2 stage OOF,LNA neuronal calcium,Chemistry-context branch
+neurotoxicity_lna,fixed_fusion,0.4448546353510231,0.18943726158080176,project-recomputed as five partition-level metrics from formal v2 stage OOF,LNA neuronal calcium,Fixed 50:50 fusion
+neurotoxicity_lna,automatic_system,0.4419552956033643,0.1766999696488412,project-computed strict nested auto run,LNA neuronal calcium,Automatic scale + capacity
+neurotoxicity_moe,source_native,0.537734303536004,0.20561113507906584,project-recomputed from source-protocol held-out predictions,MOE mouse ICV FOB,Protocol-aligned published-XGB/author-XGB composite rerun
+neurotoxicity_moe,project_xgb,0.6276229363375359,0.32714821590409365,project-recomputed from source-protocol held-out predictions,MOE mouse ICV FOB,Project XGBoost policy
+neurotoxicity_moe,registry,0.634200445914224,0.33143759018039437,project-recomputed as five partition-level metrics from formal v2 stage OOF,MOE mouse ICV FOB,Registry One-Hot
+neurotoxicity_moe,position,0.6619049506461299,0.3916728852928337,project-recomputed as five partition-level metrics from formal v2 stage OOF,MOE mouse ICV FOB,Registry + position
+neurotoxicity_moe,second_branch,0.6505430866367645,0.3971137732691338,project-recomputed as five partition-level metrics from formal v2 stage OOF,MOE mouse ICV FOB,Chemistry-context branch
+neurotoxicity_moe,fixed_fusion,0.6688807002741457,0.4136219570187759,project-recomputed as five partition-level metrics from formal v2 stage OOF,MOE mouse ICV FOB,Fixed 50:50 fusion
+neurotoxicity_moe,automatic_system,0.669686823598424,0.4205888969060926,project-computed strict nested auto run,MOE mouse ICV FOB,Automatic scale + capacity
+tlr7_immunotox,source_native,0.612054985545208,0.21768089172761887,project-recomputed from source-protocol held-out predictions,TLR8 potentiation,Protocol-aligned published-XGB/author-XGB composite rerun
+tlr7_immunotox,project_xgb,0.7043964369267451,0.4947238834267029,project-recomputed from source-protocol held-out predictions,TLR8 potentiation,Project XGBoost policy
+tlr7_immunotox,registry,0.7119981068524319,0.4969494243061937,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR8 potentiation,Registry One-Hot
+tlr7_immunotox,position,0.6996234183754543,0.5076267464503956,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR8 potentiation,Registry + position
+tlr7_immunotox,second_branch,0.7011120718249046,0.5172912894356327,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR8 potentiation,Chemistry-context branch
+tlr7_immunotox,fixed_fusion,0.7110010991975109,0.5273976307335424,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR8 potentiation,Fixed 50:50 fusion
+tlr7_immunotox,automatic_system,0.6941155123266866,0.5243102848111008,project-computed strict nested auto run,TLR8 potentiation,Automatic scale + capacity
+tlr8_immunotox,source_native,0.48045909332123077,0.1509403895937635,project-recomputed from source-protocol held-out predictions,TLR7 inhibition,Protocol-aligned published-XGB/author-XGB composite rerun
+tlr8_immunotox,project_xgb,0.5653450090114127,0.295765588634683,project-recomputed from source-protocol held-out predictions,TLR7 inhibition,Project XGBoost policy
+tlr8_immunotox,registry,0.5608222298340382,0.28815237016820106,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR7 inhibition,Registry One-Hot
+tlr8_immunotox,position,0.5795089100224595,0.28717651986312986,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR7 inhibition,Registry + position
+tlr8_immunotox,second_branch,0.6031911901017304,0.2760548627359302,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR7 inhibition,Chemistry-context branch
+tlr8_immunotox,fixed_fusion,0.5992311422411547,0.2971067560874654,project-recomputed as five partition-level metrics from formal v2 stage OOF,TLR7 inhibition,Fixed 50:50 fusion
+tlr8_immunotox,automatic_system,0.6048893715705492,0.2736838395058979,project-computed strict nested auto run,TLR7 inhibition,Automatic scale + capacity
+mouse_hepatic,source_native,0.36133360850217056,-10.689635786011443,project-recomputed from source-protocol held-out predictions,Mouse ALT,Protocol-aligned published-XGB/author-XGB composite rerun
+mouse_hepatic,project_xgb,0.3726438381816194,-2.6833008978314674,project-recomputed from source-protocol held-out predictions,Mouse ALT,Project XGBoost policy
+mouse_hepatic,registry,0.523463338651241,-0.04926496057029495,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse ALT,Registry One-Hot
+mouse_hepatic,position,0.5349727558551474,-0.10975353073302459,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse ALT,Registry + position
+mouse_hepatic,second_branch,0.5265671671366086,-0.042860930550386866,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse ALT,Chemistry-context branch
+mouse_hepatic,fixed_fusion,0.5430033323617234,-0.05987871567062149,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse ALT,Fixed 50:50 fusion
+mouse_hepatic,automatic_system,0.528430430306987,-0.0221074499449626,project-computed strict nested auto run,Mouse ALT,Automatic scale + capacity
+rat_hepatic,source_native,0.15803354534692923,-1.1630908103565765,project-recomputed from source-protocol held-out predictions,Rat ALT,Protocol-aligned published-XGB/author-XGB composite rerun
+rat_hepatic,project_xgb,0.2084698376965896,-0.24723562384614278,project-recomputed from source-protocol held-out predictions,Rat ALT,Project XGBoost policy
+rat_hepatic,registry,0.27462968677853916,-0.02181087520981222,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat ALT,Registry One-Hot
+rat_hepatic,position,0.2900579121772493,-0.007751133078933159,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat ALT,Registry + position
+rat_hepatic,second_branch,0.276179349334453,0.024860137912409663,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat ALT,Chemistry-context branch
+rat_hepatic,fixed_fusion,0.30450169265443655,0.01705332869784739,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat ALT,Fixed 50:50 fusion
+rat_hepatic,automatic_system,0.3118854414636484,0.0152666062810689,project-computed strict nested auto run,Rat ALT,Automatic scale + capacity
+mouse_neuro,source_native,0.6819477495045241,0.40432775304601104,project-recomputed from source-protocol held-out predictions,Mouse FOB,Protocol-aligned published-XGB/author-XGB composite rerun
+mouse_neuro,project_xgb,0.7326501251296119,0.4987173350997381,project-recomputed from source-protocol held-out predictions,Mouse FOB,Project XGBoost policy
+mouse_neuro,registry,0.7303055646867221,0.49923762629005103,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse FOB,Registry One-Hot
+mouse_neuro,position,0.7437169915826346,0.5159385123446004,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse FOB,Registry + position
+mouse_neuro,second_branch,0.7396454351723287,0.514058520666237,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse FOB,Chemistry-context branch
+mouse_neuro,fixed_fusion,0.7522096927136344,0.5304100221069092,project-recomputed as five partition-level metrics from formal v2 stage OOF,Mouse FOB,Fixed 50:50 fusion
+mouse_neuro,automatic_system,0.7498565385017487,0.5252560053500123,project-computed strict nested auto run,Mouse FOB,Automatic scale + capacity
+rat_neuro,source_native,0.5568204942339743,0.21298001495106397,project-recomputed from source-protocol held-out predictions,Rat FOB,Protocol-aligned published-XGB/author-XGB composite rerun
+rat_neuro,project_xgb,0.6298889948649687,0.3546511028323514,project-recomputed from source-protocol held-out predictions,Rat FOB,Project XGBoost policy
+rat_neuro,registry,0.6385364205004167,0.3644485815159228,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat FOB,Registry One-Hot
+rat_neuro,position,0.626394894956551,0.3441653316291206,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat FOB,Registry + position
+rat_neuro,second_branch,0.6350187929281312,0.35449603321660966,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat FOB,Chemistry-context branch
+rat_neuro,fixed_fusion,0.6406189377975484,0.3647501689049896,project-recomputed as five partition-level metrics from formal v2 stage OOF,Rat FOB,Fixed 50:50 fusion
+rat_neuro,automatic_system,0.6473597875170617,0.3749343518446814,project-computed strict nested auto run,Rat FOB,Automatic scale + capacity

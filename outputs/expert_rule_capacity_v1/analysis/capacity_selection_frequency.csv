@@ -1,0 +1,14 @@
+policy,capacity,outer_partitions
+capacity_guarded,compact_regularized,4
+capacity_guarded,conservative_shallow,10
+capacity_guarded,current_balanced,22
+capacity_guarded,deep_regularized_control,9
+capacity_inner_best,compact_regularized,10
+capacity_inner_best,conservative_shallow,12
+capacity_inner_best,current_balanced,6
+capacity_inner_best,deep_regularized_control,17
+fixed_compact,compact_regularized,45
+fixed_conservative,conservative_shallow,45
+fixed_current_balanced,current_balanced,45
+fixed_deep,deep_regularized_control,45
+fixed_ultra,ultra_compact,45

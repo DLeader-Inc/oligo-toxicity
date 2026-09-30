@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+data/external/
+external/
+/models/
+rerun/
+*.joblib
+*.ubj

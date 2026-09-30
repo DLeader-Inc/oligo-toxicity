@@ -1,0 +1,10 @@
+dataset,rows,sugar_patterns,linkage_patterns,combined_chemistry_patterns,multi_chemistry_sequence_groups,rows_in_multi_chemistry_groups,fraction_rows_in_multi_chemistry_groups
+cytotoxicity,768,288,2,288,10,768,1.0
+neurotoxicity_lna,1825,120,9,120,17,176,0.09643835616438357
+neurotoxicity_moe,2437,19,142,147,342,1102,0.4521953221173574
+tlr7_immunotox,192,1,1,1,0,0,0.0
+tlr8_immunotox,192,1,1,1,0,0,0.0
+mouse_hepatic,2701,102,30,115,142,749,0.2773047019622362
+rat_hepatic,714,43,12,46,38,143,0.20028011204481794
+mouse_neuro,2696,46,48,69,423,1159,0.42989614243323443
+rat_neuro,1779,46,37,63,267,715,0.40191118605958404

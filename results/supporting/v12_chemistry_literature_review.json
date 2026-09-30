@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-09-10",
+  "scope": "Independent original-literature review for V12; chemistry, sequence off-targets and protein interactions. Not external validation of manuscript cases; no new labels or causal model claims.",
+  "reviewer": "AI evidence reviewer using oligo-toxicity-evidence skill; not human expert sign-off",
+  "retrieval_note": "Web search established metadata. PMC browser pages frequently returned CAPTCHA; claim-specific original XML sections and figure captions were read via Europe PMC fullTextXML. Hashes identify retrieved XML; articles are not bundled here.",
+  "queries": [
+    {
+      "level": "exact",
+      "query": "\"TACTGCCTTCTTA\" \"LNA\"",
+      "result": "No web search results; no new exact-sequence evidence found."
+    },
+    {
+      "level": "mechanism",
+      "query": "Burel 2016 gkv1210 antisense hepatotoxicity",
+      "result": "PMC4797265"
+    },
+    {
+      "level": "mechanism",
+      "query": "Kamola 2015 gkv857 antisense",
+      "result": "PMC4605310"
+    },
+    {
+      "level": "mechanism",
+      "query": "Swayze 2007 locked nucleic acid hepatotoxicity",
+      "result": "PMC1802611"
+    },
+    {
+      "level": "mechanism",
+      "query": "Hagedorn 2013 gapmer design hepatotoxicity",
+      "result": "PMC3760025 candidate; fullTextXML empty, not promoted"
+    },
+    {
+      "level": "mechanism",
+      "query": "Shen 2014 2015 phosphorothioate antisense oligonucleotide protein interactions paraspeckle proteins",
+      "result": "PMC4117792 and PMC4357732"
+    },
+    {
+      "level": "mechanism",
+      "query": "Hagedorn 2013 0436 PMC hepatotoxic potential modification pattern",
+      "result": "Metadata verified; full text access insufficient, not promoted"
+    },
+    {
+      "level": "broad",
+      "query": "\"phosphorothioate\" \"protein binding\" antisense toxicity review",
+      "result": "Reviews used for context discovery only; no additional review promoted"
+    },
+    {
+      "level": "counterevidence",
+      "query": "\"LNA\" \"hepatotoxicity\" \"well tolerated\" Burel",
+      "result": "Original Burel Results includes tolerated LNA/cEt controls; directly inspected"
+    }
+  ],
+  "sources": [
+    {
+      "id": "Burel2016",
+      "first_author": "Sebastien A Burel",
+      "year": 2016,
+      "title": "Hepatotoxicity of high affinity gapmer antisense oligonucleotides is mediated by RNase H1 dependent promiscuous reduction of very long pre-mRNA transcripts",
+      "journal": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkv1210",
+      "pmid": "26553810",
+      "pmcid": "PMC4797265",
+      "url": "https://doi.org/10.1093/nar/gkv1210",
+      "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4797265/fullTextXML",
+      "sha256": "90672e6599dc4595e27a5f72083e31aae158ae90b422d75ddaac579d2b126593",
+      "relation": "supports",
+      "claim": "RNase H1 depletion attenuated off-target transcript reduction and liver injury for tested high-affinity gapmers, providing a sequence-dependent hybridization alternative to a purely protein-binding explanation.",
+      "locator": "Results: Hepatotoxicity of LNA ASOs is RNase H1 dependent; Figure 5A–B. Figure 1A and Results first subsection for tolerated controls.",
+      "context": "Balb/c mice; 13 3–10–3 LNA gapmers in initial single-dose study; mechanistic challenge at 25 or 75 mg/kg after anti-RNase H1 MOE pretreatment; liver RNA and plasma ALT.",
+      "counterevidence": {
+        "relation": "contradicts",
+        "target_claim": "LNA modification inevitably causes hepatotoxicity",
+        "evidence": "Six of 13 initial LNA gapmers were tolerated up to 300 mg/kg within 96 h; Figure 1A. Later cEt controls also tolerated, Supplementary Figure S7."
+      },
+      "limitations": "Neither the HeLa case nor a proof of its mechanism; sequence, exposure and assay differ. RNase H1-associated effects do not uniquely distinguish all downstream toxicity pathways.",
+      "falsification_experiment": "For the case pair, compare transcript perturbations and caspase response after controlled RNase H1 reduction alongside protein-binding measurements.",
+      "suggested_placement": "Introduction sequence×chemistry rationale; HeLa mechanism alternatives; Discussion against universal LNA rules."
+    },
+    {
+      "id": "Kamola2015",
+      "first_author": "Piotr J Kamola",
+      "year": 2015,
+      "title": "In silico and in vitro evaluation of exonic and intronic off-target effects form a critical element of therapeutic ASO gapmer optimization",
+      "journal": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkv857",
+      "pmid": "26338776",
+      "pmcid": "PMC4605310",
+      "url": "https://doi.org/10.1093/nar/gkv857",
+      "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4605310/fullTextXML",
+      "sha256": "35f00dd26b43ed6cc9ecd60d7c4e3d410e551c7d615ec56fc0d83c8e44c70750",
+      "relation": "supports",
+      "claim": "BACH1-directed ASOs reduced experimentally tested exonic and intronic off-target RNAs; motif descriptors alone therefore cannot identify a specific off-target transcript.",
+      "locator": "Figures 1–2 (RNA/protein validation); Figure 3 (26 tested candidate off-targets for GSK2910546A); Figure 4 (duplex stability comparison).",
+      "context": "Human NHBE cells with gymnotic uptake and A549 lipid transfection; Figure 1 NHBE concentration 0.1–5 µM; Figure 2D protein measurements after 20 µM for 48 h.",
+      "counterevidence": {
+        "relation": "context_only",
+        "target_claim": "Any sequence-similar transcript is a functional off-target",
+        "evidence": "Experimentally tested off-targets differed in potency, Figure 3; candidate matches require measurement."
+      },
+      "limitations": "Molecular off-target activity, not direct validation of manuscript toxicity predictions. Cell type and delivery affect relevance; no exact case-sequence match established.",
+      "falsification_experiment": "Measure candidate transcript and protein changes for matched chemistry variants, rather than infer target engagement from a short motif.",
+      "suggested_placement": "Descriptor rationale and HeLa alternate explanation."
+    },
+    {
+      "id": "Swayze2007",
+      "first_author": "Eric E Swayze",
+      "year": 2007,
+      "title": "Antisense oligonucleotides containing locked nucleic acid improve potency but cause significant hepatotoxicity in animals",
+      "journal": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkl1071",
+      "pmid": "17182632",
+      "pmcid": "PMC1802611",
+      "url": "https://doi.org/10.1093/nar/gkl1071",
+      "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1802611/fullTextXML",
+      "sha256": "f0dee867ddc9dde85bc4b7083148b6e1a341da509d71a610759eaad6a3226a15",
+      "relation": "supports",
+      "claim": "Matched LNA/MOE series demonstrated that increased target potency can coexist with worse liver tolerability; molecular improvement is endpoint-specific rather than a single universal direction.",
+      "locator": "Figures 3–4 (TRADD reduction and transaminases); Figure 5 (histopathology and injury markers); Figures 7–8 (ApoB and PTEN series).",
+      "context": "Mouse liver; gapmers with LNA or MOE wings and DNA gaps. Figure 5 reports 4.5 µmol/kg twice weekly for three weeks.",
+      "counterevidence": {
+        "relation": "context_only",
+        "target_claim": "Every LNA substitution improves potency or inevitably increases toxicity",
+        "evidence": "The study reports variable potency effects; Burel2016 provides tolerated LNA controls. Do not extrapolate its selected series to the entire chemistry class."
+      },
+      "limitations": "Not the 13-mer HeLa case or a position-12 intervention. Target, sequence, gap architecture and exposure differ; toxicity mechanism is not resolved by chemistry comparison alone.",
+      "falsification_experiment": "Measure both target knockdown and caspase response for the proposed position-swap series to distinguish potency from tolerability.",
+      "suggested_placement": "Introduction chemical design trade-offs; HeLa discussion."
+    },
+    {
+      "id": "Shen2014",
+      "first_author": "Wen Shen",
+      "year": 2014,
+      "title": "Phosphorothioate oligonucleotides can displace NEAT1 RNA and form nuclear paraspeckle-like structures",
+      "journal": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gku579",
+      "pmid": "25013176",
+      "pmcid": "PMC4117792",
+      "url": "https://doi.org/10.1093/nar/gku579",
+      "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4117792/fullTextXML",
+      "sha256": "59d091b4fe6eac354b01e77df10009e6b3a43ba04532d42d8c29c66e01671783",
+      "relation": "supports",
+      "claim": "Both sugar chemistry and PS content affected binding of tested nuclear proteins, supporting interpretation of mixed sequence–sugar–backbone descriptors rather than isolated chemistry labels.",
+      "locator": "Figure 1D (same-sequence 2′ modifications), 1E–F (PS number and length); Figure 6G (RNase H1-independent NEAT1 reduction).",
+      "context": "Affinity-selection experiments with 5–10–5 cEt capture ASO; HeLa and other cell systems; Figure 6H uses 50 nM overnight transfection.",
+      "counterevidence": {
+        "relation": "contradicts",
+        "target_claim": "Every ASO-associated RNA reduction is canonical target-directed RNase H1 cleavage",
+        "evidence": "Control-ASO NEAT1 reduction was not prevented by RNase H1 depletion, Figure 6G."
+      },
+      "limitations": "Binding/relocalization and NEAT1 findings are not a toxicity assay or direct evidence for the case pair. A binding threshold for one protein is not a universal PS design rule.",
+      "falsification_experiment": "Compare case variants by protein pull-down and subcellular localization at matched concentration, with uptake controls.",
+      "suggested_placement": "Molecular-axis explanation; HeLa protein-binding alternative."
+    },
+    {
+      "id": "Liang2015",
+      "first_author": "Xue-hai Liang",
+      "year": 2015,
+      "title": "Identification and characterization of intracellular proteins that bind oligonucleotides with phosphorothioate linkages",
+      "journal": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkv143",
+      "pmid": "25712094",
+      "pmcid": "PMC4357732",
+      "url": "https://doi.org/10.1093/nar/gkv143",
+      "original_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4357732/fullTextXML",
+      "sha256": "d7e7f9fdf0bd3f22b879277461ce7df9fb0a5a9dad17b4b5509001445dd614e0",
+      "relation": "supports",
+      "claim": "Intracellular ASO-binding proteins can either facilitate or inhibit antisense activity, so protein binding cannot be assigned one uniform beneficial or harmful meaning.",
+      "locator": "Figure 2 (La/NPM1 depletion), Figure 5 (Ku70/Ku80 depletion), Figure 6 (competition with RNase H1), Figure 7 (nuclear accumulation).",
+      "context": "HeLa protein perturbation and target-RNA assays; Figure 7 uses 50 nM fluorescent ASO for five hours; distinct free-uptake localization experiments use 2 µM for 24 h.",
+      "counterevidence": {
+        "relation": "contradicts",
+        "target_claim": "More intracellular protein binding always implies greater toxicity",
+        "evidence": "Opposing effects of different proteins on ASO activity; experiments measure activity/localization, not a universal toxicity relationship."
+      },
+      "limitations": "Not direct toxicity or same-case evidence. Fluorescent localization and transfection conditions cannot supply a HeLa caspase effect size.",
+      "falsification_experiment": "Measure localization, target reduction and caspase response separately when testing the chemistry pair.",
+      "suggested_placement": "Discussion: alternative explanations for chemistry-associated model dependence."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "Hagedorn2013",
+      "doi": "10.1089/nat.2013.0436",
+      "reason": "Relevant metadata verified but full-text XML returned empty; no figure-level claim promoted in this review."
+    }
+  ],
+  "unresolved": "No new exact-sequence experimental evidence for the V11 HeLa case was found. These original studies enrich mechanism alternatives, not measured labels or causal attribution. No new external validation cohort was assembled."
+}

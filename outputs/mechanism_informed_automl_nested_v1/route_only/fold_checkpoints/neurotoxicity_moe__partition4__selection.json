@@ -1,0 +1,104 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v1",
+  "policy": "route_only",
+  "dataset": "neurotoxicity_moe",
+  "outer_partition": 4,
+  "outer_train_rows": 1680,
+  "outer_test_rows": 757,
+  "outer_train_groups": 6,
+  "outer_test_groups": 2,
+  "outer_group_overlap": 0,
+  "selected_route": "chemistry_only",
+  "selected_components": [
+    "chemistry"
+  ],
+  "selected_weights": [
+    1.0
+  ],
+  "selected_candidate": "current_balanced",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.1
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    120421,
+    128340,
+    136259,
+    144178,
+    152097
+  ],
+  "selection_audit": {
+    "selected_reason": "joint one-SE simplification relative to the best balanced-score Pareto candidate",
+    "best_candidate": "current_balanced",
+    "best_route": "registry_chemistry",
+    "best_transform": "identity",
+    "best_mean_score": 0.4321987401032515,
+    "best_se_score": 0.03671847297098286,
+    "one_se_threshold": 0.39548026713226864,
+    "pareto_candidates": 3,
+    "one_se_candidates": 5
+  },
+  "scale_rule": {
+    "kind": "inner_selected"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/integrated_feature_automl_v2/formal/fold_checkpoints/neurotoxicity_moe__partition4__inner_scores.csv.gz",
+  "models": [
+    {
+      "member": 1,
+      "seed": 120421,
+      "component": "chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_only/outer_models/neurotoxicity_moe/partition_4/member_1__chemistry.joblib",
+      "sha256": "95fac1dc8f0cca953d267047d27070b86191ea9befe92f8a67cded932affb70f",
+      "feature_count": 1089
+    },
+    {
+      "member": 2,
+      "seed": 128340,
+      "component": "chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_only/outer_models/neurotoxicity_moe/partition_4/member_2__chemistry.joblib",
+      "sha256": "86bee87f7089eb0432824a9d3734a6e494109f9d54bc048bea6c65bdec847435",
+      "feature_count": 1089
+    },
+    {
+      "member": 3,
+      "seed": 136259,
+      "component": "chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_only/outer_models/neurotoxicity_moe/partition_4/member_3__chemistry.joblib",
+      "sha256": "c474978a27cad67b8d05325f8211234b0767668d0f08cfe94a33c949e0f3b205",
+      "feature_count": 1089
+    },
+    {
+      "member": 4,
+      "seed": 144178,
+      "component": "chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_only/outer_models/neurotoxicity_moe/partition_4/member_4__chemistry.joblib",
+      "sha256": "44186e4c379366b7495a26cbf99b1d35c953d9fc89ac6edbbff3a9fcc785bd43",
+      "feature_count": 1089
+    },
+    {
+      "member": 5,
+      "seed": 152097,
+      "component": "chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_only/outer_models/neurotoxicity_moe/partition_4/member_5__chemistry.joblib",
+      "sha256": "6a3bbcda1f6b4faec5362345c26f9c304645f9d0a552c79cf3f65f7739e611b8",
+      "feature_count": 1089
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_only/outer_models/neurotoxicity_moe/partition_4/membership.json"
+}

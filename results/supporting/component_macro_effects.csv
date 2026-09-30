@@ -1,0 +1,8 @@
+component,metric,baseline,candidate,baseline_macro,candidate_macro,mean_improvement,median_improvement,endpoint_wins,endpoints
+expert_descriptor_fusion,raw_r2,project_xgb,fixed_fusion,-0.08784981096754252,0.2652810254508993,0.3531308364184419,0.05595969302174,9,9
+expert_descriptor_fusion,spearman,project_xgb,fixed_fusion,0.5236481256951995,0.5987971547837877,0.07514902908858818,0.04125776393660985,9,9
+model_recipe,raw_r2,source_native,project_xgb,-1.225390299193756,-0.08784981096754252,1.1375404882262137,0.1897541310967017,9,9
+model_recipe,spearman,source_native,project_xgb,0.45593473925948824,0.5236481256951995,0.06771338643571127,0.07306850063099446,9,9
+rule_log1p,raw_r2,fixed_expert_identity,expert_rule_scale,-0.0997748535350445,0.27071693569569194,0.37049178923073645,0.0,2,9
+rule_log1p,rmse_over_y_std,fixed_expert_identity,expert_rule_scale,0.9134542068161716,0.841390595140449,0.07206361167572262,-0.0,2,9
+rule_log1p,spearman,fixed_expert_identity,expert_rule_scale,0.5842858081177752,0.6028900695414421,0.018604261423667025,0.0,2,9

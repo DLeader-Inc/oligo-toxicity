@@ -1,0 +1,8 @@
+dataset,endpoint,matched_pairs_with_shared_outer_model,matched_sequence_context_groups,group_level_delta_spearman,group_level_direction_agreement,direction_evaluable_groups,direction_agreeing_groups,group_level_delta_mae,validation_scope
+cytotoxicity,HeLa caspase-3/7 cytotoxicity,36112,8,0.4047619047619048,1.0,8,8,0.030168800129219728,same source-protocol outer partition; not an exact-sequence-grouped experiment
+mouse_hepatic,Mouse ALT,304,159,0.46423517283899385,0.6265822784810127,158,99,812.7021822105164,same source-protocol outer partition; not an exact-sequence-grouped experiment
+mouse_neuro,Mouse FOB,1017,421,0.3493517947662948,0.6655405405405406,296,197,0.9122279927991066,same source-protocol outer partition; not an exact-sequence-grouped experiment
+neurotoxicity_lna,LNA neuronal calcium score,1308,17,0.18025754461056337,0.4117647058823529,17,7,8.292234861710496,same source-protocol outer partition; not an exact-sequence-grouped experiment
+neurotoxicity_moe,MOE acute FOB neurotoxicity,2403,323,0.4099257325399973,0.6972972972972973,185,129,0.8923593843100117,same source-protocol outer partition; not an exact-sequence-grouped experiment
+rat_hepatic,Rat ALT,78,54,0.25432292547052776,0.5660377358490566,53,30,67.03490060474098,same source-protocol outer partition; not an exact-sequence-grouped experiment
+rat_neuro,Rat FOB,662,263,0.29026931893505964,0.5876777251184834,211,124,0.8503637824810957,same source-protocol outer partition; not an exact-sequence-grouped experiment

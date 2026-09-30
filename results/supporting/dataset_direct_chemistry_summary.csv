@@ -1,0 +1,10 @@
+dataset,endpoint,rows,unique_sequences,chemistry_patterns,context_matched_sequence_groups_with_chemistry_variation,eligible_rows,eligible_row_fraction,matched_chemistry_pairs,single_edit_pairs,pair_weighted_median_absolute_outcome_difference,group_weighted_median_absolute_outcome_difference,group_weighted_p90_absolute_outcome_difference,matched_pairs_with_shared_outer_model,oof_recovery_sequence_context_groups
+cytotoxicity,HeLa caspase-3/7 cytotoxicity,768,10,288,10,768,1.0,69248,2688,0.15514087683410638,0.15623065723484061,0.22247658585226182,36112,8
+neurotoxicity_lna,LNA neuronal calcium score,1825,1653,120,17,176,0.09643835616438357,1308,89,25.085,19.05000000000001,40.34,1308,17
+neurotoxicity_moe,MOE acute FOB neurotoxicity,2437,1677,2306,342,1102,0.4521953221173574,2468,147,0.0,1.0,3.0,2403,323
+tlr7_immunotox,TLR8 potentiation,192,192,1,0,0,0.0,0,0,,,,0,0
+tlr8_immunotox,TLR7 inhibition,192,192,1,0,0,0.0,0,0,,,,0,0
+mouse_hepatic,Mouse ALT,2701,1533,1376,186,464,0.17178822658274714,352,56,100.5,94.5,1485.5,304,159
+rat_hepatic,Rat ALT,714,436,448,56,122,0.17086834733893558,80,5,30.5,25.0,180.5,78,54
+mouse_neuro,Mouse FOB,2696,1960,2610,423,1158,0.42952522255192876,1113,106,1.0,1.0,2.3240000000000003,1017,421
+rat_neuro,Rat FOB,1779,1331,1757,265,711,0.3996627318718381,666,49,0.75,1.0,2.0,662,263

@@ -1,0 +1,53 @@
+{
+  "probe": false,
+  "new_training": false,
+  "members": 5,
+  "prediction": {
+    "710": 0.284901762008667,
+    "718": 0.1451028235256672
+  },
+  "maximum_reconstruction_residual": 2.2586639758515048e-07,
+  "selection_sha256": "97ff4537fc368bfd624933bfb0a4aab23796bcd6f2245b30bc003a07c7d22742",
+  "models": [
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_1__legacy_branch_a.joblib",
+      "sha256": "188ca33a869fdd35f78aa379ddbde374629f74a47812ab03d59c3303cd11378c"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_1__legacy_branch_b.joblib",
+      "sha256": "05cbc1677ac1ad8ab82fae1cf4e196eca71b9ab41889f8f1bf0b804410928092"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_2__legacy_branch_a.joblib",
+      "sha256": "c3ee364c6687179204e7ba08e4483d263308cae01cfc0df1a29ec7d3a22856ce"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_2__legacy_branch_b.joblib",
+      "sha256": "524d3995b9b990005985aeeaf4c14dabac2a3fe209d52a712da057de543056e0"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_3__legacy_branch_a.joblib",
+      "sha256": "f89af365db7fe319e3af4d9870df863e3dc84daebcee85130fd67f35703b4882"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_3__legacy_branch_b.joblib",
+      "sha256": "30325f5afcd921d1c1ac1a8a3c3d6658b0a48dedd59972e510b9136193787b70"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_4__legacy_branch_a.joblib",
+      "sha256": "2e0e9e0edf3c27234962a14851b154e355c031514b0808ece03b5cc9c2c587ca"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_4__legacy_branch_b.joblib",
+      "sha256": "7b608c849dc6eb961961b509350f89bb012bd1b7758b72907e956d3ac9c94033"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_5__legacy_branch_a.joblib",
+      "sha256": "336730343be276a73c5d40c963f3b734c7c89385790eee374f7f722a83dc2ed4"
+    },
+    {
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/cytotoxicity/partition_3/member_5__legacy_branch_b.joblib",
+      "sha256": "7a997e48c55829120c9ef36a11da4fe812a28f0f887cf467e46f76872c736d61"
+    }
+  ]
+}

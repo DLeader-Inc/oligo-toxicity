@@ -1,0 +1,27 @@
+{
+  "schema_version": "mechanism_literature_search_ladder_v1",
+  "retrieval_date_utc": "2026-08-29",
+  "levels": {
+    "exact": [
+      "Alharbi TLR8 potentiation oligonucleotide sequence 2'O-methyl paper",
+      "gkaa523 Nucleic Acids Research 2020 TLR8 potentiation ASO title"
+    ],
+    "mechanism": [
+      "TLR8 human oligonucleotide potentiation 2'-O-methyl uridine primary experiment sequence motif",
+      "phosphorothioate antisense oligonucleotide protein binding uptake experimental",
+      "LNA conformational preorganization hybridization affinity melting temperature",
+      "2'-O-methoxyethyl antisense affinity nuclease resistance RNase H gapmer"
+    ],
+    "broad": [
+      "nucleoside modifications suppress Toll-like receptor RNA recognition",
+      "RNase H gapmer wing gap architecture experiment"
+    ],
+    "counterevidence": [
+      "2'-O-methyl oligonucleotide TLR8 counter evidence position dependent",
+      "phosphorothioate chirality potency safety sequence primary driver",
+      "sequence dependency phosphorothioate oligonucleotide uptake distribution"
+    ]
+  },
+  "promotion_policy": "Only sources read to abstract/full-text figure level were promoted; reviews and patents remain context-only and were not converted into measured labels.",
+  "relation_codes": ["supports", "contradicts", "context_only"]
+}

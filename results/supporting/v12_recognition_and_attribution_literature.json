@@ -1,0 +1,117 @@
+{
+  "version": "V12",
+  "review_date": "2026-09-10",
+  "scope": "Claim-specific contextual evidence, not new training labels or external validation. AI-assisted review; no human expert sign-off.",
+  "chemistry_sources": "v12_chemistry_literature_review.json",
+  "sources": [
+    {
+      "number": 34,
+      "doi": "10.1038/nsmb.2943",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25599397/",
+      "locator": "Abstract, sentences on structures and site-directed mutagenesis",
+      "review_depth": "abstract",
+      "relation": "context_only",
+      "claim": "TLR8 uses distinct sites for uridine and short RNA fragments.",
+      "limit": "Natural RNA-derived ligands, not the intact query ASO."
+    },
+    {
+      "number": 35,
+      "doi": "10.1016/j.cell.2019.11.001",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7116005/",
+      "locator": "Abstract; Figure 6A–B RNA40S digestion context",
+      "review_depth": "abstract and Results passage",
+      "relation": "context_only",
+      "claim": "RNase T2 processing supplies TLR8 ligands.",
+      "limit": "No demonstrated processing route for the present modified 20-mer."
+    },
+    {
+      "number": 36,
+      "doi": "10.1016/j.immuni.2020.03.009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32294405/",
+      "locator": "Abstract, last two findings on synthetic/pathogen RNA and patient cells",
+      "review_depth": "abstract",
+      "relation": "context_only",
+      "claim": "RNase dependence differs between RNA recognition and small-molecule stimulation.",
+      "limit": "Cannot equate RNA activation with R848-plus-ASO potentiation."
+    },
+    {
+      "number": 37,
+      "doi": "10.1016/j.immuni.2016.09.011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27742543/",
+      "locator": "Abstract, structures and ligand preferences",
+      "review_depth": "abstract",
+      "relation": "context_only",
+      "claim": "TLR7 has guanosine and uridine-containing RNA preferences distinct from TLR8.",
+      "limit": "No receptor-independent motif sign is inferred."
+    },
+    {
+      "number": 38,
+      "doi": "10.1038/s41590-026-02429-2",
+      "url": "https://www.nature.com/articles/s41590-026-02429-2",
+      "locator": "Results, Fig. 2m and adjacent paragraph; rendered article lines 144–150",
+      "review_depth": "full-text Results and figure caption",
+      "relation": "contradicts",
+      "target_claim": "A 5-prime OMe-G is always inhibitory.",
+      "claim": "GCC-v4 provides a potentiating counterexample.",
+      "limit": "Short fragments and different conditions; not external validation of row 184."
+    },
+    {
+      "number": 39,
+      "url": "https://proceedings.mlr.press/v108/janzing20a.html",
+      "locator": "Abstract",
+      "review_depth": "abstract",
+      "relation": "context_only",
+      "claim": "Feature attribution depends on observational versus interventional conditioning choices.",
+      "limit": "A methodological caution, not a biological assay or validation of this model."
+    }
+  ],
+  "query_ladder": [
+    {
+      "level": "exact",
+      "query": "\"GTCCGTACCTCCACCCACCG\" TLR8",
+      "status": "not_run_in_this_revision",
+      "note": "No new exact-query support claimed; existing source-case evidence retained."
+    },
+    {
+      "level": "mechanism",
+      "query": "\"Toll-like receptor 8 senses degradation products of single-stranded RNA\"",
+      "result": "Tanji2015"
+    },
+    {
+      "level": "mechanism",
+      "query": "\"TLR8 Is a Sensor of RNase T2 Degradation Products\"",
+      "result": "Greulich2019"
+    },
+    {
+      "level": "mechanism",
+      "query": "\"Immune Sensing of Synthetic, Bacterial, and Protozoan RNA\"",
+      "result": "Ostendorf2020"
+    },
+    {
+      "level": "mechanism",
+      "query": "site.pubmed.ncbi.nlm.nih.gov Structural Analysis Reveals Toll-like Receptor 7 Dual Receptor Guanosine Zhang 2016",
+      "result": "Zhang2016"
+    },
+    {
+      "level": "broad",
+      "query": "\"2′-O-Methyl-guanosine RNA fragments\" \"GCC\"",
+      "result": "Alharbi2026"
+    },
+    {
+      "level": "counterevidence",
+      "query": "site.nature.com/articles/s41590-026-02429-2 \"GCC-v4\"",
+      "result": "No usable exact search result; original article inspected via cookie-free URL; Fig. 2m counterexample verified."
+    },
+    {
+      "level": "counterevidence",
+      "query": "\"Ostendorf\" \"RNase 2\" \"small-molecule\" 2020",
+      "result": "Patient-cell distinction verified in abstract."
+    },
+    {
+      "level": "method",
+      "query": "site.proceedings.mlr.press/v108/janzing20a.html",
+      "result": "Janzing2020"
+    }
+  ],
+  "access_notes": "Some Nature/PubMed pages and Europe PMC API requests failed. The successful publisher URL with error=cookies_not_supported&code=1 allowed Fig. 2m verification. Abstract-only sources are explicitly labeled; no figure-level reading claimed for them."
+}

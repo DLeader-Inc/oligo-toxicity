@@ -1,0 +1,152 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v2",
+  "policy": "expert_rule_fixed_ultra",
+  "dataset": "tlr7_immunotox",
+  "outer_partition": 1,
+  "outer_train_rows": 128,
+  "outer_test_rows": 64,
+  "outer_train_groups": 6,
+  "outer_test_groups": 2,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "ultra_compact",
+  "selected_xgboost_params": {
+    "n_estimators": 150,
+    "max_depth": 2,
+    "learning_rate": 0.03,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.2
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    130125,
+    138044,
+    145963,
+    153882,
+    161801
+  ],
+  "selection_audit": {
+    "selected_reason": "predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice",
+    "pareto_candidates": 1,
+    "one_se_candidates": 1
+  },
+  "scale_rule": {
+    "kind": "outer_train_rule",
+    "reason": "nonnegative_skewness_at_most_2",
+    "minimum": 0.57,
+    "fisher_pearson_skewness": 0.6370479319046654,
+    "threshold": 2.0,
+    "selected_transform": "identity",
+    "reason_detail": "predeclared expert A/B and ultra_compact; target scale determined only from outer-train labels"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/full_automl/fold_checkpoints/tlr7_immunotox__partition1__inner_scores.csv.gz",
+  "reused_compatible_outer_artifacts_from": null,
+  "models": [
+    {
+      "member": 1,
+      "seed": 130125,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_1__legacy_branch_a.joblib",
+      "sha256": "7e5f4fea81c9ab903699910298012d8e0f36b573e26cb60a454f505f198d6396",
+      "feature_count": 1088
+    },
+    {
+      "member": 1,
+      "seed": 130125,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_1__legacy_branch_b.joblib",
+      "sha256": "c047837c62882122761093f32fecb2b60e33ae508e55922c07070ef2f2032f50",
+      "feature_count": 830
+    },
+    {
+      "member": 2,
+      "seed": 138044,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_2__legacy_branch_a.joblib",
+      "sha256": "20a093948792774b9de5cc9cd33950c0799ec4fb1d864c2eb49977c2494347c4",
+      "feature_count": 1088
+    },
+    {
+      "member": 2,
+      "seed": 138044,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_2__legacy_branch_b.joblib",
+      "sha256": "8348672cc563fff644da8a630f8822add15b5d72582cc5ed02c36b69ff158f0c",
+      "feature_count": 830
+    },
+    {
+      "member": 3,
+      "seed": 145963,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_3__legacy_branch_a.joblib",
+      "sha256": "74b6c906014eb3de496a25ec0e57716ee7c79836d96951eeee1033f28f5584b4",
+      "feature_count": 1088
+    },
+    {
+      "member": 3,
+      "seed": 145963,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_3__legacy_branch_b.joblib",
+      "sha256": "32c03ea346949d7cfdf3ca4765abd76132f0d325b4a80ab0945750161a5cb8f4",
+      "feature_count": 830
+    },
+    {
+      "member": 4,
+      "seed": 153882,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_4__legacy_branch_a.joblib",
+      "sha256": "5dcfe0ecab471f1bd337fee3b2b25b3a9dfc8aa3ff44c3d2d44ff0952748562a",
+      "feature_count": 1088
+    },
+    {
+      "member": 4,
+      "seed": 153882,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_4__legacy_branch_b.joblib",
+      "sha256": "67397d823d0d1473cd39d693a8b6c3853babba3c968dcd2a40292c8f3bb8eda6",
+      "feature_count": 830
+    },
+    {
+      "member": 5,
+      "seed": 161801,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_5__legacy_branch_a.joblib",
+      "sha256": "f2a73a391d6106114e77b33d61c3339ad55ba1154503a964e69bf096bd570a2e",
+      "feature_count": 1088
+    },
+    {
+      "member": 5,
+      "seed": 161801,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/member_5__legacy_branch_b.joblib",
+      "sha256": "bddc9072ea575e9a0125b97e9794b3a279bd992598351caedd75064ced9a6219",
+      "feature_count": 830
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_ultra/outer_models/tlr7_immunotox/partition_1/membership.json"
+}

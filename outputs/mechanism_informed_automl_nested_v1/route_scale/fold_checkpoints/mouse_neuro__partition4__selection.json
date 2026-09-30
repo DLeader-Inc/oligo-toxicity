@@ -1,0 +1,104 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v1",
+  "policy": "route_scale",
+  "dataset": "mouse_neuro",
+  "outer_partition": 4,
+  "outer_train_rows": 2156,
+  "outer_test_rows": 540,
+  "outer_train_groups": 20,
+  "outer_test_groups": 3,
+  "outer_group_overlap": 0,
+  "selected_route": "motif_chemistry",
+  "selected_components": [
+    "motif_chemistry"
+  ],
+  "selected_weights": [
+    1.0
+  ],
+  "selected_candidate": "current_balanced",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.1
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    170456,
+    178375,
+    186294,
+    194213,
+    202132
+  ],
+  "selection_audit": {
+    "selected_reason": "joint one-SE simplification relative to the best balanced-score Pareto candidate",
+    "best_candidate": "current_balanced",
+    "best_route": "legacy_fixed_50_50",
+    "best_transform": "identity",
+    "best_mean_score": 0.6539063096604196,
+    "best_se_score": 0.009992526739555774,
+    "one_se_threshold": 0.6439137829208639,
+    "pareto_candidates": 1,
+    "one_se_candidates": 3
+  },
+  "scale_rule": {
+    "kind": "inner_selected"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/integrated_feature_automl_v2/formal/fold_checkpoints/mouse_neuro__partition4__inner_scores.csv.gz",
+  "models": [
+    {
+      "member": 1,
+      "seed": 170456,
+      "component": "motif_chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_4/member_1__motif_chemistry.joblib",
+      "sha256": "4f3e708430298456fb012fe2f8d20e1dfff4921dbfc7804ec9a9d92fbd4c31cd",
+      "feature_count": 1331
+    },
+    {
+      "member": 2,
+      "seed": 178375,
+      "component": "motif_chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_4/member_2__motif_chemistry.joblib",
+      "sha256": "ac43875067d836ac935c7a0e7ec31902bcb1f6f92da43a4aba8715f63130d788",
+      "feature_count": 1331
+    },
+    {
+      "member": 3,
+      "seed": 186294,
+      "component": "motif_chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_4/member_3__motif_chemistry.joblib",
+      "sha256": "e98e376cc19b826ea61ed5d8f999fdf165c2f73df579acf6d122c6ec265e308a",
+      "feature_count": 1331
+    },
+    {
+      "member": 4,
+      "seed": 194213,
+      "component": "motif_chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_4/member_4__motif_chemistry.joblib",
+      "sha256": "f52514f7101ec36e13f01a1495f3cf17646ee05bde724cd752b78055e2b56c76",
+      "feature_count": 1331
+    },
+    {
+      "member": 5,
+      "seed": 202132,
+      "component": "motif_chemistry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_4/member_5__motif_chemistry.joblib",
+      "sha256": "d6a93c20f5ce5103042444e13b18dfc0ebdd571d7468c86b1fb659a4d19c8b08",
+      "feature_count": 1331
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_4/membership.json"
+}

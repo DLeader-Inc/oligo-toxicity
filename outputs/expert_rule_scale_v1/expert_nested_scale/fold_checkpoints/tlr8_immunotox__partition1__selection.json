@@ -1,0 +1,153 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v1",
+  "policy": "expert_nested_scale",
+  "dataset": "tlr8_immunotox",
+  "outer_partition": 1,
+  "outer_train_rows": 128,
+  "outer_test_rows": 64,
+  "outer_train_groups": 6,
+  "outer_test_groups": 2,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "current_balanced",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.1
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    140132,
+    148051,
+    155970,
+    163889,
+    171808
+  ],
+  "selection_audit": {
+    "selected_reason": "joint one-SE simplification relative to the best balanced-score Pareto candidate",
+    "best_candidate": "current_balanced",
+    "best_route": "legacy_fixed_50_50",
+    "best_transform": "identity",
+    "best_mean_score": 0.4794828469932826,
+    "best_se_score": 0.09296184922606192,
+    "one_se_threshold": 0.38652099776722065,
+    "pareto_candidates": 1,
+    "one_se_candidates": 2
+  },
+  "scale_rule": {
+    "kind": "inner_selected_scale_only",
+    "reason": "predeclared A/B and current_balanced; grouped inner CV selects only the legal target scale"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/full_automl/fold_checkpoints/tlr8_immunotox__partition1__inner_scores.csv.gz",
+  "reused_compatible_outer_artifacts_from": "/home/z/rna_toxi_model/outputs/expert_rule_scale_v1/expert_rule_scale",
+  "models": [
+    {
+      "member": 1,
+      "seed": 140132,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_1__legacy_branch_a.joblib",
+      "sha256": "b19b88c6a28eab2b873a541eb9739b8d68fcc52f8e01a2e8f0b1bdd18ae0f253",
+      "feature_count": 1088
+    },
+    {
+      "member": 1,
+      "seed": 140132,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_1__legacy_branch_b.joblib",
+      "sha256": "d1e7d307644c8451ca5505e5e4cd47c85bd7710410f410fbf8f645ef78a7dac9",
+      "feature_count": 830
+    },
+    {
+      "member": 2,
+      "seed": 148051,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_2__legacy_branch_a.joblib",
+      "sha256": "fcb62d07642e6cf0bbd45d21d23384e2ac1de4ae291765043a6daa04df6a070e",
+      "feature_count": 1088
+    },
+    {
+      "member": 2,
+      "seed": 148051,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_2__legacy_branch_b.joblib",
+      "sha256": "d602e6def01549e066748512ef9d69b383cf87aa66162cd7b64eb2af86377774",
+      "feature_count": 830
+    },
+    {
+      "member": 3,
+      "seed": 155970,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_3__legacy_branch_a.joblib",
+      "sha256": "9b1d975b718359c0d0bc49b3151962b0ed88dbaef00545d289acb82d2d27e34b",
+      "feature_count": 1088
+    },
+    {
+      "member": 3,
+      "seed": 155970,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_3__legacy_branch_b.joblib",
+      "sha256": "9de83c10319597a4a9b4b36489a761e33d01313f66e3cfeb5304feb099ec7862",
+      "feature_count": 830
+    },
+    {
+      "member": 4,
+      "seed": 163889,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_4__legacy_branch_a.joblib",
+      "sha256": "6cf00370185db0fecdc4dfabdcdcb41e24eba24b30a034a5d2516dbf6054a002",
+      "feature_count": 1088
+    },
+    {
+      "member": 4,
+      "seed": 163889,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_4__legacy_branch_b.joblib",
+      "sha256": "347c44dd9844ad6eb2b2f676fae585fc16bb783bb578dcaf0de0be39f7102ac2",
+      "feature_count": 830
+    },
+    {
+      "member": 5,
+      "seed": 171808,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_5__legacy_branch_a.joblib",
+      "sha256": "0ea80775d0e5f00767e66df1c49238e77f6af165f99c9f6b25f1a4e6bc7b0b95",
+      "feature_count": 1088
+    },
+    {
+      "member": 5,
+      "seed": 171808,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/fixed_expert/outer_models/tlr8_immunotox/partition_1/member_5__legacy_branch_b.joblib",
+      "sha256": "3dd173ade55ed8e3c274843c99181064bb4eac43b3aefa36b0277d0d969235e3",
+      "feature_count": 830
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/expert_rule_scale_v1/expert_nested_scale/outer_models/tlr8_immunotox/partition_1/membership.json"
+}

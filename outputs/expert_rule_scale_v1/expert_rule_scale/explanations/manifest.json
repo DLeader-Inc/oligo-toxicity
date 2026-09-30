@@ -1,0 +1,24 @@
+{
+  "schema_version": "feature_automl_outer_heldout_explanation_v2",
+  "probe": false,
+  "global_only": true,
+  "endpoints": [
+    "cytotoxicity",
+    "neurotoxicity_lna",
+    "neurotoxicity_moe",
+    "tlr7_immunotox",
+    "tlr8_immunotox",
+    "mouse_hepatic",
+    "rat_hepatic",
+    "mouse_neuro",
+    "rat_neuro"
+  ],
+  "folds": 225,
+  "global_feature_rows": 17268,
+  "global_concept_rows": 92,
+  "shared_descriptor_clusters": 2582,
+  "global_family_rows": 29,
+  "heldout_cases": 0,
+  "max_treeshap_additivity_residual": 6.94245936756488e-05,
+  "claim_boundary": "same-model held-out TreeSHAP dependence on the fitted model scale; not biological causality"
+}

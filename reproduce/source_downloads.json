@@ -1,0 +1,69 @@
+[
+  {
+    "endpoint": "HeLa caspase-3/7",
+    "file": "Papargyri_2020_1_processed.csv.gz",
+    "revision": "97f5b9f58d9e445a8ecb0218037af7465c3708c0",
+    "url": "https://raw.githubusercontent.com/Roche/OligoGym/97f5b9f58d9e445a8ecb0218037af7465c3708c0/oligogym/resources/pkg_dataset/Papargyri_2020_1_processed.csv.gz",
+    "http_status": 200,
+    "bytes": 33903,
+    "downloaded_sha256": "e2a131f8a10f84d1402ee2fa9f998b6c82ba26032d38efee9a71c3082b27d1bb"
+  },
+  {
+    "endpoint": "LNA neuronal calcium",
+    "file": "Hagedorn_2022_1_processed.csv.gz",
+    "revision": "97f5b9f58d9e445a8ecb0218037af7465c3708c0",
+    "url": "https://raw.githubusercontent.com/Roche/OligoGym/97f5b9f58d9e445a8ecb0218037af7465c3708c0/oligogym/resources/pkg_dataset/Hagedorn_2022_1_processed.csv.gz",
+    "http_status": 200,
+    "bytes": 101688,
+    "downloaded_sha256": "c7d4268c7f57ec707e8c8561ce9da0c0b7eefbb3c1c6463965874ce49d4ba6dc"
+  },
+  {
+    "endpoint": "MOE mouse ICV FOB",
+    "file": "MOE_Neurotox_1_processed.csv.gz",
+    "revision": "97f5b9f58d9e445a8ecb0218037af7465c3708c0",
+    "url": "https://raw.githubusercontent.com/Roche/OligoGym/97f5b9f58d9e445a8ecb0218037af7465c3708c0/oligogym/resources/pkg_dataset/MOE_Neurotox_1_processed.csv.gz",
+    "http_status": 200,
+    "bytes": 115842,
+    "downloaded_sha256": "edc615a6642656e0faeef478711b4453376da8981744bedfa60544ff124a9f50"
+  },
+  {
+    "endpoint": "TLR8 potentiation",
+    "file": "Alharbi_2020_1_processed.csv.gz",
+    "revision": "97f5b9f58d9e445a8ecb0218037af7465c3708c0",
+    "url": "https://raw.githubusercontent.com/Roche/OligoGym/97f5b9f58d9e445a8ecb0218037af7465c3708c0/oligogym/resources/pkg_dataset/Alharbi_2020_1_processed.csv.gz",
+    "http_status": 200,
+    "bytes": 11164,
+    "downloaded_sha256": "7d8f4c22925a9664f4b972259dec38d03958cb97a3f6e1faf22fd524ef0c5b22"
+  },
+  {
+    "endpoint": "TLR7 inhibition",
+    "file": "Alharbi_2020_2_processed.csv.gz",
+    "revision": "97f5b9f58d9e445a8ecb0218037af7465c3708c0",
+    "url": "https://raw.githubusercontent.com/Roche/OligoGym/97f5b9f58d9e445a8ecb0218037af7465c3708c0/oligogym/resources/pkg_dataset/Alharbi_2020_2_processed.csv.gz",
+    "http_status": 200,
+    "bytes": 11465,
+    "downloaded_sha256": "1639222a05b39b6cecc123d6eedf85f388a8b369cee6d8fc9350a23d87125934"
+  },
+  {
+    "endpoint": "Mouse and Rat ALT",
+    "file": "hepatotoxicity.parquet",
+    "revision": "b947db330a3bf1e194ac190d0f188f7693660852",
+    "url": "https://huggingface.co/datasets/barneyhill/aso-atlas-2/resolve/b947db330a3bf1e194ac190d0f188f7693660852/hepatotoxicity.parquet",
+    "http_status": 200,
+    "bytes": 182535,
+    "downloaded_sha256": "16c30ef6882d0a2e018dbc997b42bd9de411d0a1f9fd8872a5e486c618be3c34",
+    "local_file_sha256": "16c30ef6882d0a2e018dbc997b42bd9de411d0a1f9fd8872a5e486c618be3c34",
+    "matches_local_input_bytes": true
+  },
+  {
+    "endpoint": "Mouse and Rat FOB",
+    "file": "neurotoxicity.parquet",
+    "revision": "b947db330a3bf1e194ac190d0f188f7693660852",
+    "url": "https://huggingface.co/datasets/barneyhill/aso-atlas-2/resolve/b947db330a3bf1e194ac190d0f188f7693660852/neurotoxicity.parquet",
+    "http_status": 200,
+    "bytes": 197775,
+    "downloaded_sha256": "62b40fc65031a286f54419f7ea27a1840db0418e638dbc68c7234394fb982ca8",
+    "local_file_sha256": "62b40fc65031a286f54419f7ea27a1840db0418e638dbc68c7234394fb982ca8",
+    "matches_local_input_bytes": true
+  }
+]

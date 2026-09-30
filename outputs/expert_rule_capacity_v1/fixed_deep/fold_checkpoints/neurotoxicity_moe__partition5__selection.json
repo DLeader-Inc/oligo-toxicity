@@ -1,0 +1,152 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v2",
+  "policy": "expert_rule_fixed_deep",
+  "dataset": "neurotoxicity_moe",
+  "outer_partition": 5,
+  "outer_train_rows": 1676,
+  "outer_test_rows": 761,
+  "outer_train_groups": 6,
+  "outer_test_groups": 2,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "deep_regularized_control",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 5,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.7,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.2
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    120522,
+    128441,
+    136360,
+    144279,
+    152198
+  ],
+  "selection_audit": {
+    "selected_reason": "predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice",
+    "pareto_candidates": 1,
+    "one_se_candidates": 1
+  },
+  "scale_rule": {
+    "kind": "outer_train_rule",
+    "reason": "nonnegative_skewness_at_most_2",
+    "minimum": 0.0,
+    "fisher_pearson_skewness": 0.41639554540757867,
+    "threshold": 2.0,
+    "selected_transform": "identity",
+    "reason_detail": "predeclared expert A/B and deep_regularized_control; target scale determined only from outer-train labels"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/full_automl/fold_checkpoints/neurotoxicity_moe__partition5__inner_scores.csv.gz",
+  "reused_compatible_outer_artifacts_from": null,
+  "models": [
+    {
+      "member": 1,
+      "seed": 120522,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_1__legacy_branch_a.joblib",
+      "sha256": "1f2f616ced926cf0916ed240729294eaf77d42ed4e81d3ab2081c463b12e269f",
+      "feature_count": 1088
+    },
+    {
+      "member": 1,
+      "seed": 120522,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_1__legacy_branch_b.joblib",
+      "sha256": "d4a7fabc2749bb7d778d96b030dbfb21571324f21572ed3c66aa7154d8ab08ee",
+      "feature_count": 830
+    },
+    {
+      "member": 2,
+      "seed": 128441,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_2__legacy_branch_a.joblib",
+      "sha256": "525c937c869165f5421f9beb6bfc8c583b56606eac403a9ffb5ffc68b6d12d30",
+      "feature_count": 1088
+    },
+    {
+      "member": 2,
+      "seed": 128441,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_2__legacy_branch_b.joblib",
+      "sha256": "c35a8757674051900373bd3b8151d04443594a039e67b7a95b75e4715f4803c5",
+      "feature_count": 830
+    },
+    {
+      "member": 3,
+      "seed": 136360,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_3__legacy_branch_a.joblib",
+      "sha256": "22416d1308c05083d0f3a7e0e1d8cc6928ab56c64c3b52bf344cfe2da2ad3980",
+      "feature_count": 1088
+    },
+    {
+      "member": 3,
+      "seed": 136360,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_3__legacy_branch_b.joblib",
+      "sha256": "442bcd9a87c7152e6ee3011960973534100c5df67e4446d1166186a3b482178e",
+      "feature_count": 830
+    },
+    {
+      "member": 4,
+      "seed": 144279,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_4__legacy_branch_a.joblib",
+      "sha256": "6e906cc891d05777b7791a98a16f18b17142b3894928761e9d44703e69aec78b",
+      "feature_count": 1088
+    },
+    {
+      "member": 4,
+      "seed": 144279,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_4__legacy_branch_b.joblib",
+      "sha256": "7a8b9fbbfb7c20a66e8fe4ffef8e6b9f32bee2e64b52693ac1d952d72946f3cb",
+      "feature_count": 830
+    },
+    {
+      "member": 5,
+      "seed": 152198,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_5__legacy_branch_a.joblib",
+      "sha256": "c785f6baad27ebed8284f6dd566235766d5e91185bd027ce19967ef513b417d2",
+      "feature_count": 1088
+    },
+    {
+      "member": 5,
+      "seed": 152198,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/member_5__legacy_branch_b.joblib",
+      "sha256": "ff92c5f382932c3b83515e7d3c27e17a47bd587f1a9a8960bc301c21745a5062",
+      "feature_count": 830
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/neurotoxicity_moe/partition_5/membership.json"
+}

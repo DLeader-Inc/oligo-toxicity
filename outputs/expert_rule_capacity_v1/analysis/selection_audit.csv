@@ -1,0 +1,316 @@
+policy,dataset,outer_partition,capacity,transform,route,outer_group_overlap,selection_uses_outer_test,reused_outer,selection_reason
+fixed_ultra,cytotoxicity,1,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,cytotoxicity,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,cytotoxicity,3,ultra_compact,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,cytotoxicity,4,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,cytotoxicity,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_hepatic,1,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_hepatic,2,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_hepatic,3,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_hepatic,4,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_hepatic,5,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_neuro,1,ultra_compact,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_neuro,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_neuro,3,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_neuro,4,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,mouse_neuro,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_lna,1,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_lna,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_lna,3,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_lna,4,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_lna,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_moe,1,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_moe,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_moe,3,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_moe,4,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,neurotoxicity_moe,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_hepatic,1,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_hepatic,2,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_hepatic,3,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_hepatic,4,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_hepatic,5,ultra_compact,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_neuro,1,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_neuro,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_neuro,3,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_neuro,4,ultra_compact,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,rat_neuro,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr7_immunotox,1,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr7_immunotox,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr7_immunotox,3,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr7_immunotox,4,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr7_immunotox,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr8_immunotox,1,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr8_immunotox,2,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr8_immunotox,3,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr8_immunotox,4,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_ultra,tlr8_immunotox,5,ultra_compact,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,cytotoxicity,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,cytotoxicity,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,cytotoxicity,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,cytotoxicity,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,cytotoxicity,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_hepatic,1,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_hepatic,2,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_hepatic,3,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_hepatic,4,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_hepatic,5,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_neuro,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_neuro,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_neuro,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_neuro,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,mouse_neuro,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_lna,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_lna,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_lna,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_lna,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_lna,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_moe,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_moe,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_moe,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_moe,4,compact_regularized,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,neurotoxicity_moe,5,compact_regularized,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_hepatic,1,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_hepatic,2,compact_regularized,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_hepatic,3,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_hepatic,4,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_hepatic,5,compact_regularized,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_neuro,1,compact_regularized,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_neuro,2,compact_regularized,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_neuro,3,compact_regularized,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_neuro,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,rat_neuro,5,compact_regularized,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr7_immunotox,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr7_immunotox,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr7_immunotox,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr7_immunotox,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr7_immunotox,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr8_immunotox,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr8_immunotox,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr8_immunotox,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr8_immunotox,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_compact,tlr8_immunotox,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,cytotoxicity,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,cytotoxicity,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,cytotoxicity,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,cytotoxicity,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,cytotoxicity,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_hepatic,1,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_hepatic,2,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_hepatic,3,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_hepatic,4,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_hepatic,5,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_neuro,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_neuro,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_neuro,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_neuro,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,mouse_neuro,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_lna,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_lna,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_lna,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_lna,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_lna,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_moe,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_moe,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_moe,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_moe,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,neurotoxicity_moe,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_hepatic,1,conservative_shallow,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_hepatic,2,conservative_shallow,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_hepatic,3,conservative_shallow,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_hepatic,4,conservative_shallow,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_hepatic,5,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_neuro,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_neuro,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_neuro,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_neuro,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,rat_neuro,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr7_immunotox,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr7_immunotox,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr7_immunotox,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr7_immunotox,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr7_immunotox,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr8_immunotox,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr8_immunotox,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr8_immunotox,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr8_immunotox,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_conservative,tlr8_immunotox,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,cytotoxicity,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,cytotoxicity,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,cytotoxicity,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,cytotoxicity,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,cytotoxicity,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,mouse_hepatic,1,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_hepatic,2,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_hepatic,3,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_hepatic,4,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_hepatic,5,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_neuro,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_neuro,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_neuro,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_neuro,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,mouse_neuro,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,neurotoxicity_lna,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_lna,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_lna,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_lna,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_lna,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_moe,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_moe,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_moe,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_moe,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,neurotoxicity_moe,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,rat_hepatic,1,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_hepatic,2,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_hepatic,3,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_hepatic,4,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_hepatic,5,current_balanced,log1p,legacy_fixed_50_50,0,False,False,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_neuro,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_neuro,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_neuro,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_neuro,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,rat_neuro,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,tlr7_immunotox,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,tlr7_immunotox,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,tlr7_immunotox,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,tlr7_immunotox,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,tlr7_immunotox,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_current_balanced,tlr8_immunotox,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,tlr8_immunotox,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,tlr8_immunotox,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,tlr8_immunotox,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_current_balanced,tlr8_immunotox,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,"predeclared expert A/B, current_balanced, and outer-train-only scale rule; no inner candidate choice"
+fixed_deep,cytotoxicity,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,cytotoxicity,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,cytotoxicity,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,cytotoxicity,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,cytotoxicity,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_hepatic,1,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_hepatic,2,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_hepatic,3,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_hepatic,4,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_hepatic,5,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_neuro,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_neuro,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_neuro,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_neuro,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,mouse_neuro,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_lna,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_lna,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_lna,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_lna,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_lna,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_moe,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_moe,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_moe,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_moe,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,neurotoxicity_moe,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_hepatic,1,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_hepatic,2,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_hepatic,3,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_hepatic,4,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_hepatic,5,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_neuro,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_neuro,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_neuro,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_neuro,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,rat_neuro,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr7_immunotox,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr7_immunotox,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr7_immunotox,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr7_immunotox,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr7_immunotox,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr8_immunotox,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr8_immunotox,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr8_immunotox,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr8_immunotox,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+fixed_deep,tlr8_immunotox,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice
+capacity_inner_best,cytotoxicity,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,cytotoxicity,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,cytotoxicity,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,cytotoxicity,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,cytotoxicity,5,compact_regularized,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_hepatic,1,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_hepatic,2,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_hepatic,3,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_hepatic,4,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_hepatic,5,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_neuro,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_neuro,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_neuro,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_neuro,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,mouse_neuro,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_lna,1,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_lna,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_lna,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_lna,4,compact_regularized,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_lna,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_moe,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_moe,2,compact_regularized,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_moe,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_moe,4,compact_regularized,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,neurotoxicity_moe,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_hepatic,1,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_hepatic,2,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_hepatic,3,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_hepatic,4,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_hepatic,5,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_neuro,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_neuro,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_neuro,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_neuro,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,rat_neuro,5,compact_regularized,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr7_immunotox,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr7_immunotox,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr7_immunotox,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr7_immunotox,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr7_immunotox,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr8_immunotox,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr8_immunotox,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr8_immunotox,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr8_immunotox,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_inner_best,tlr8_immunotox,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,highest mean balanced score across grouped inner folds in the admissible capacity grid
+capacity_guarded,cytotoxicity,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,cytotoxicity,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,True,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,cytotoxicity,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,cytotoxicity,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,cytotoxicity,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,mouse_hepatic,1,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,mouse_hepatic,2,current_balanced,log1p,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,mouse_hepatic,3,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,mouse_hepatic,4,deep_regularized_control,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,mouse_hepatic,5,current_balanced,log1p,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,mouse_neuro,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,mouse_neuro,2,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,mouse_neuro,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,mouse_neuro,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,mouse_neuro,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,neurotoxicity_lna,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,neurotoxicity_lna,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,neurotoxicity_lna,3,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,neurotoxicity_lna,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,neurotoxicity_lna,5,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,neurotoxicity_moe,1,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,neurotoxicity_moe,2,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,neurotoxicity_moe,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,neurotoxicity_moe,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,neurotoxicity_moe,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,rat_hepatic,1,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_hepatic,2,compact_regularized,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_hepatic,3,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_hepatic,4,conservative_shallow,log1p,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_hepatic,5,current_balanced,log1p,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,rat_neuro,1,compact_regularized,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_neuro,2,compact_regularized,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_neuro,3,compact_regularized,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_neuro,4,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,rat_neuro,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,tlr7_immunotox,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,tlr7_immunotox,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,tlr7_immunotox,3,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,tlr7_immunotox,4,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,tlr7_immunotox,5,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,tlr8_immunotox,1,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,tlr8_immunotox,2,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard
+capacity_guarded,tlr8_immunotox,3,conservative_shallow,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,tlr8_immunotox,4,deep_regularized_control,identity,legacy_fixed_50_50,0,False,False,challenger exceeded current_balanced by more than one paired-fold SE and did not reduce mean Spearman or raw R2
+capacity_guarded,tlr8_immunotox,5,current_balanced,identity,legacy_fixed_50_50,0,False,True,retained current_balanced because no challenger passed the paired stability and two-metric guard

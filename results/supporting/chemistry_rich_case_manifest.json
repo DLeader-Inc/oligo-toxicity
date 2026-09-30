@@ -1,0 +1,80 @@
+{
+  "cytotoxicity": {
+    "dataset": "cytotoxicity",
+    "selection_rule": "median exact-sequence outcome range; minimum chemistry edit; median nonzero outcome contrast; source-row tie break",
+    "sequence_group_median_range": 0.6655007811945702,
+    "selected_group_range": 0.7546502858890749,
+    "chemistry_edits": 1,
+    "measured_difference": 0.17835675328614958,
+    "left": {
+      "source_row_index": "710",
+      "helm": "RNA1{[lna](T)[sp].d(A)[sp].d(C)[sp].[lna](T)[sp].d(G)[sp].d(C)[sp].d(C)[sp].d(T)[sp].d(T)[sp].d(C)[sp].[lna](T)[sp].[lna](T)[sp].[lna](A)}$$$$",
+      "sequence": "TACTGCCTTCTTA",
+      "modification_pattern": "LDDLDDDDDDLLL",
+      "linkage_pattern": "PS-PS-PS-PS-PS-PS-PS-PS-PS-PS-PS-PS",
+      "measured_value": 0.2561892312157772,
+      "target": "HIF1A",
+      "strict_heldout_prediction": 0.284901836514473,
+      "outer_partition": 3,
+      "row_unseen_in_member_training": true,
+      "exact_helm_unseen_in_member_training": true,
+      "canonical_sequence_unseen_in_member_training": true,
+      "assigned_group_unseen_in_member_training": true
+    },
+    "right": {
+      "source_row_index": "718",
+      "helm": "RNA1{[lna](T)[sp].d(A)[sp].d(C)[sp].[lna](T)[sp].d(G)[sp].d(C)[sp].d(C)[sp].d(T)[sp].d(T)[sp].d(C)[sp].[lna](T)[sp].d(T)[sp].[lna](A)}$$$$",
+      "sequence": "TACTGCCTTCTTA",
+      "modification_pattern": "LDDLDDDDDDLDL",
+      "linkage_pattern": "PS-PS-PS-PS-PS-PS-PS-PS-PS-PS-PS-PS",
+      "measured_value": 0.0778324779296276,
+      "target": "HIF1A",
+      "strict_heldout_prediction": 0.1451028242707252,
+      "outer_partition": 3,
+      "row_unseen_in_member_training": true,
+      "exact_helm_unseen_in_member_training": true,
+      "canonical_sequence_unseen_in_member_training": true,
+      "assigned_group_unseen_in_member_training": true
+    },
+    "claim_boundary": "measured within-dataset contrast; descriptive and not causal; not held-out performance"
+  },
+  "neurotoxicity_moe": {
+    "dataset": "neurotoxicity_moe",
+    "selection_rule": "median exact-sequence outcome range; minimum chemistry edit; median nonzero outcome contrast; source-row tie break",
+    "sequence_group_median_range": 1.0,
+    "selected_group_range": 1.0,
+    "chemistry_edits": 1,
+    "measured_difference": 1.0,
+    "left": {
+      "source_row_index": "2062",
+      "helm": "RNA1{[moe](A)[sp].[moe]([m5C])[sp].[moe](T)[sp].[moe](T)[sp].[moe](T)[sp].[moe]([m5C])[sp].[moe](A)p.[moe](T)p.[moe](A)p.[moe](A)p.[moe](T)[sp].[moe](G)[sp].[moe]([m5C])[sp].[moe](T)[sp].[moe](G)[sp].[moe](G)}$$$$",
+      "sequence": "ACTTTCATAATGCTGG",
+      "modification_pattern": "MMMMMMMMMMMMMMMM",
+      "linkage_pattern": "PS-PS-PS-PS-PS-PS-PO-PO-PO-PO-PS-PS-PS-PS-PS",
+      "measured_value": 0.0,
+      "target": "SMN2",
+      "strict_heldout_prediction": 3.4791658878326417,
+      "outer_partition": 1,
+      "row_unseen_in_member_training": true,
+      "exact_helm_unseen_in_member_training": true,
+      "canonical_sequence_unseen_in_member_training": true,
+      "assigned_group_unseen_in_member_training": true
+    },
+    "right": {
+      "source_row_index": "2063",
+      "helm": "RNA1{[moe](A)[sp].[moe]([m5C])[sp].[moe](T)[sp].[moe](T)[sp].[moe](T)[sp].[moe]([m5C])[sp].[moe](A)[sp].[moe](T)p.[moe](A)p.[moe](A)p.[moe](T)[sp].[moe](G)[sp].[moe]([m5C])[sp].[moe](T)[sp].[moe](G)[sp].[moe](G)}$$$$",
+      "sequence": "ACTTTCATAATGCTGG",
+      "modification_pattern": "MMMMMMMMMMMMMMMM",
+      "linkage_pattern": "PS-PS-PS-PS-PS-PS-PS-PO-PO-PO-PS-PS-PS-PS-PS",
+      "measured_value": 1.0,
+      "target": "SMN2",
+      "strict_heldout_prediction": 3.4918081760406494,
+      "outer_partition": 1,
+      "row_unseen_in_member_training": true,
+      "exact_helm_unseen_in_member_training": true,
+      "canonical_sequence_unseen_in_member_training": true,
+      "assigned_group_unseen_in_member_training": true
+    },
+    "claim_boundary": "measured within-dataset contrast; descriptive and not causal; not held-out performance"
+  }
+}

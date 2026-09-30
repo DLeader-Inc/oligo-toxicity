@@ -1,0 +1,104 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v1",
+  "policy": "route_scale",
+  "dataset": "mouse_neuro",
+  "outer_partition": 2,
+  "outer_train_rows": 2155,
+  "outer_test_rows": 541,
+  "outer_train_groups": 19,
+  "outer_test_groups": 4,
+  "outer_group_overlap": 0,
+  "selected_route": "registry_only",
+  "selected_components": [
+    "registry"
+  ],
+  "selected_weights": [
+    1.0
+  ],
+  "selected_candidate": "current_balanced",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 3.0,
+    "reg_alpha": 0.1
+  },
+  "selected_transform": "identity",
+  "inverse_transform": "identity",
+  "model_output_scale": "y",
+  "treeshap_scale": "y",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    170254,
+    178173,
+    186092,
+    194011,
+    201930
+  ],
+  "selection_audit": {
+    "selected_reason": "joint one-SE simplification relative to the best balanced-score Pareto candidate",
+    "best_candidate": "current_balanced",
+    "best_route": "legacy_fixed_50_50",
+    "best_transform": "identity",
+    "best_mean_score": 0.6181559529838019,
+    "best_se_score": 0.02702836225658023,
+    "one_se_threshold": 0.5911275907272217,
+    "pareto_candidates": 2,
+    "one_se_candidates": 11
+  },
+  "scale_rule": {
+    "kind": "inner_selected"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/integrated_feature_automl_v2/formal/fold_checkpoints/mouse_neuro__partition2__inner_scores.csv.gz",
+  "models": [
+    {
+      "member": 1,
+      "seed": 170254,
+      "component": "registry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_2/member_1__registry.joblib",
+      "sha256": "c25e6f7111e23d0e7ec0f380e5cbe63e4ad5840273993a789474100fdd60d8c1",
+      "feature_count": 587
+    },
+    {
+      "member": 2,
+      "seed": 178173,
+      "component": "registry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_2/member_2__registry.joblib",
+      "sha256": "ffcd7f576e5b2215803abdffe23b4a4222e8e940ffb656270e98ea729c552c65",
+      "feature_count": 587
+    },
+    {
+      "member": 3,
+      "seed": 186092,
+      "component": "registry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_2/member_3__registry.joblib",
+      "sha256": "a9fbf74a76e6bca34ebcd3b24e7ba5479720b701d9f38c5d60d8527d96eea913",
+      "feature_count": 587
+    },
+    {
+      "member": 4,
+      "seed": 194011,
+      "component": "registry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_2/member_4__registry.joblib",
+      "sha256": "d25175b47532881ee2654be28f7c11954e70de448617eb695827c80a652a3b0c",
+      "feature_count": 587
+    },
+    {
+      "member": 5,
+      "seed": 201930,
+      "component": "registry",
+      "weight": 1.0,
+      "path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_2/member_5__registry.joblib",
+      "sha256": "7653f2583d9b049091177142310c8c956e2d9a59989f36b13b0ac5ff062faf34",
+      "feature_count": 587
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/route_scale/outer_models/mouse_neuro/partition_2/membership.json"
+}

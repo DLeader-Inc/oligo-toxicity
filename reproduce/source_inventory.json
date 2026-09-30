@@ -1,0 +1,614 @@
+{
+  "status": "local_candidate_not_yet_published",
+  "python_files": 81,
+  "code_files": [
+    {
+      "path": "scripts/analyze_endpoint_interpretability_landscape.py",
+      "source_sha256": "ba8354e0a35976b2a5e26d38c7cfe20502c60d9c35df11d19f83381213a95025",
+      "release_sha256": "ba8354e0a35976b2a5e26d38c7cfe20502c60d9c35df11d19f83381213a95025",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/analyze_expert_rule_capacity.py",
+      "source_sha256": "c663d458ae8ecffb591adf52996125b93dc436098176543dbad6015547c1d193",
+      "release_sha256": "c663d458ae8ecffb591adf52996125b93dc436098176543dbad6015547c1d193",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/analyze_expert_rule_paper.py",
+      "source_sha256": "d96c5198d8f6fd0dcf1a840c777bb2543335b8d777286a2616d11bd23893080b",
+      "release_sha256": "d96c5198d8f6fd0dcf1a840c777bb2543335b8d777286a2616d11bd23893080b",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/analyze_expert_rule_scale.py",
+      "source_sha256": "dc1d002e3d0a20f0cbd86bf5c333abd83a8c0624a29190fbf51bb310fe660985",
+      "release_sha256": "dc1d002e3d0a20f0cbd86bf5c333abd83a8c0624a29190fbf51bb310fe660985",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/audit_feature_automl_splits.py",
+      "source_sha256": "78341dbbacf7d05dc32ea671268da159e598843205e6941a90786fd7fac1b913",
+      "release_sha256": "78341dbbacf7d05dc32ea671268da159e598843205e6941a90786fd7fac1b913",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/audit_sequence_similarity_groups.py",
+      "source_sha256": "730e1b23756f64a01ecfbaa5f8b27db310a0cab3287c5117d996f62bb71256d2",
+      "release_sha256": "730e1b23756f64a01ecfbaa5f8b27db310a0cab3287c5117d996f62bb71256d2",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/augment_descriptor_family_cache_position_reencoding.py",
+      "source_sha256": "2195775c727e2ea031ecdd31d7ca96139f965b187e3833e86a31cc58dc984c02",
+      "release_sha256": "2195775c727e2ea031ecdd31d7ca96139f965b187e3833e86a31cc58dc984c02",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/augment_descriptor_family_cache_token_padding.py",
+      "source_sha256": "ce896dca11be97b9f25478fa1f5a925882b533bea4e9973f3bbe6941e9c828e8",
+      "release_sha256": "ce896dca11be97b9f25478fa1f5a925882b533bea4e9973f3bbe6941e9c828e8",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/benchmark_aso_atlas2_four_stage_factorial.py",
+      "source_sha256": "73f5dba1b5d3a5b30c8bcc477ceb56dbfc99dc65f5cd72ce4878014ed9e18752",
+      "release_sha256": "73f5dba1b5d3a5b30c8bcc477ceb56dbfc99dc65f5cd72ce4878014ed9e18752",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/benchmark_aso_atlas2_project_representation.py",
+      "source_sha256": "9648b4be2c9a5dee2c80f670152501291ef9d8a8e5efc94678241e765dcedaa9",
+      "release_sha256": "9648b4be2c9a5dee2c80f670152501291ef9d8a8e5efc94678241e765dcedaa9",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/benchmark_feature_automl_nested.py",
+      "source_sha256": "5e2ff9c956bb2ff87aee92d2885a5aa4d1194acb731c320fb750bd210fa9aea2",
+      "release_sha256": "fdb009fb39556cf27c20fc66e4ca081ad3d4af40ebd05e16ebadebe90ebfa1c6",
+      "adaptations": [
+        "Clarify primary-policy description; numerical implementation unchanged."
+      ]
+    },
+    {
+      "path": "scripts/benchmark_registry_nine_endpoints.py",
+      "source_sha256": "9a04695638493bb93d97662b55e196264738dbe07adf33a6d647913e726b8382",
+      "release_sha256": "9a04695638493bb93d97662b55e196264738dbe07adf33a6d647913e726b8382",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/benchmark_xgb_robust_nested.py",
+      "source_sha256": "7c2e5228cd727593dd4b10cdcccfeb338c402387f4e7951475320ce751660ea8",
+      "release_sha256": "7c2e5228cd727593dd4b10cdcccfeb338c402387f4e7951475320ce751660ea8",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/build_evidence_agent_prompt.py",
+      "source_sha256": "21f3cc3695862d48a5087435ae11bdc13acdef62aeddf6a1cb003a9c1c9bd9c3",
+      "release_sha256": "21f3cc3695862d48a5087435ae11bdc13acdef62aeddf6a1cb003a9c1c9bd9c3",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/build_focused_story_v10_evidence.py",
+      "source_sha256": "a0f3f70ded128d95698c1bbc51ae06f2fc9638395a25b4969aa241254a58f9ae",
+      "release_sha256": "a0f3f70ded128d95698c1bbc51ae06f2fc9638395a25b4969aa241254a58f9ae",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/build_integrated_auto_system_report.py",
+      "source_sha256": "8b92e7ec86eb0910d5d22159f4bbcbebab037b0ab85d701c3545aaa21c080414",
+      "release_sha256": "8b92e7ec86eb0910d5d22159f4bbcbebab037b0ab85d701c3545aaa21c080414",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/build_paper_interpretability_agent.py",
+      "source_sha256": "5a607c9ca93119cf2332de24241893b0645a3313c822216fd061247499bd5a3e",
+      "release_sha256": "5a607c9ca93119cf2332de24241893b0645a3313c822216fd061247499bd5a3e",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/build_tlr8_automl_case.py",
+      "source_sha256": "f769a541ca02103f9be6209ffb6215208799674a7320e4a31c50a3c24158f07d",
+      "release_sha256": "f769a541ca02103f9be6209ffb6215208799674a7320e4a31c50a3c24158f07d",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/compare_oligogym_neurips2025_same_splits.py",
+      "source_sha256": "b3f765e1464f3853d04859fcf22e05a8f24cca1fd33a2fe935de7c3dcae731f4",
+      "release_sha256": "b5490b9b11269a14b71700643075b597c846115ed439ad4bdf61f9944bfc1c94",
+      "adaptations": [
+        "Default fixed-commit source checkout is repository-relative."
+      ]
+    },
+    {
+      "path": "scripts/export_feature_automl_explanations.py",
+      "source_sha256": "d65796c6d269e1463d2984ca6575e56deb6a00cef5e100239d918a32ab645f39",
+      "release_sha256": "d65796c6d269e1463d2984ca6575e56deb6a00cef5e100239d918a32ab645f39",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/export_reader_case_evidence_v11.py",
+      "source_sha256": "66318232bacd142d5f152a5daf6c3f01c3fe83bd0be042b0c6359632ba4e9990",
+      "release_sha256": "66318232bacd142d5f152a5daf6c3f01c3fe83bd0be042b0c6359632ba4e9990",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/plot_author_revision_v15.py",
+      "source_sha256": "b7bccb266b333d502340467aff86e66b1f3eed9f78b22b0de67e4805ef978930",
+      "release_sha256": "b7bccb266b333d502340467aff86e66b1f3eed9f78b22b0de67e4805ef978930",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/plot_endpoint_interpretability_landscape.py",
+      "source_sha256": "d5658f1b51a2d31a1297c918c2b49bc8eab60262ca73104b0adaf561d04e87bb",
+      "release_sha256": "d5658f1b51a2d31a1297c918c2b49bc8eab60262ca73104b0adaf561d04e87bb",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/plot_literature_focused_v12.py",
+      "source_sha256": "298d82b29b15d4dfce3a360d44a5b835998b2c100623fdb097fe2e3ceda4a05c",
+      "release_sha256": "298d82b29b15d4dfce3a360d44a5b835998b2c100623fdb097fe2e3ceda4a05c",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/plot_reader_controls_v11.py",
+      "source_sha256": "53e32711e71318ee7844f51b01c0961f5f7451e2612506882abc7047d4a90d26",
+      "release_sha256": "53e32711e71318ee7844f51b01c0961f5f7451e2612506882abc7047d4a90d26",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/predict_feature_automl_system.py",
+      "source_sha256": "606fc5ee0743bbc925c231af2732af3b74be454223a5058ba84155e177981667",
+      "release_sha256": "606fc5ee0743bbc925c231af2732af3b74be454223a5058ba84155e177981667",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/reproduce_oligogym_neurips2025_table3.py",
+      "source_sha256": "ef3ebdc5113be5b79a88691c28bc8a46b9a53a34476478e92b47a0e132d47f49",
+      "release_sha256": "02012315bca2473d447f7e3abfba4f6163ed24f986af11787a6a1469571bbb86",
+      "adaptations": [
+        "Default fixed-commit source checkout is repository-relative."
+      ]
+    },
+    {
+      "path": "scripts/run_nested_automl_family_ablation.py",
+      "source_sha256": "1918dbce66312a47f08aabb1bafa46456e2a9320f0073c975e313397d3f9068c",
+      "release_sha256": "1918dbce66312a47f08aabb1bafa46456e2a9320f0073c975e313397d3f9068c",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/run_with_resource_guard.py",
+      "source_sha256": "9a5b262ab071ce329e27ca9a676c723ccc149507b26117bb6f98458e780d4650",
+      "release_sha256": "9a5b262ab071ce329e27ca9a676c723ccc149507b26117bb6f98458e780d4650",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/train_all_current_descriptors_grouped.py",
+      "source_sha256": "b2963004e39649ab65cb7bf45f6200fb1889e98935d6199491f5115993b21c49",
+      "release_sha256": "b2963004e39649ab65cb7bf45f6200fb1889e98935d6199491f5115993b21c49",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/train_current_descriptor_families_grouped.py",
+      "source_sha256": "15134e2d0737ba3f43f211ef932f042d2acde2721bf842123c838a78c45ada1e",
+      "release_sha256": "15134e2d0737ba3f43f211ef932f042d2acde2721bf842123c838a78c45ada1e",
+      "adaptations": []
+    },
+    {
+      "path": "scripts/train_structure_descriptor_ablation.py",
+      "source_sha256": "7357bedb9b700e4375869dc83092b52c89b38f9491eb7eab536bfb8c64784861",
+      "release_sha256": "7357bedb9b700e4375869dc83092b52c89b38f9491eb7eab536bfb8c64784861",
+      "adaptations": []
+    },
+    {
+      "path": "src/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/__init__.py",
+      "source_sha256": "9ac10266b9636a2fde57acc66af61ebcbadbc572d0351c7bcb085ec465b1bfdb",
+      "release_sha256": "9ac10266b9636a2fde57acc66af61ebcbadbc572d0351c7bcb085ec465b1bfdb",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/descriptor_family_cache.py",
+      "source_sha256": "9a242aacfe6f28e84d78f342019df9eff1c51e6d2be1a410908f99e3640c713e",
+      "release_sha256": "9a242aacfe6f28e84d78f342019df9eff1c51e6d2be1a410908f99e3640c713e",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/descriptor_family_tree_models.py",
+      "source_sha256": "23b373bc52cafa10ce1ed2f81711a8a7acf773414305f433b64ba3ffa8291229",
+      "release_sha256": "23b373bc52cafa10ce1ed2f81711a8a7acf773414305f433b64ba3ffa8291229",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/oligogym_grouped_splits.py",
+      "source_sha256": "0ebe933d48c675a991688fc02be9f9275c99e94dcfedf448e3a4c345415af9b4",
+      "release_sha256": "0ebe933d48c675a991688fc02be9f9275c99e94dcfedf448e3a4c345415af9b4",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/oligogym_neurips2025.py",
+      "source_sha256": "6e8f867b28301a71bf49b6f2379abee98cb7ca78a345a2d43db8dd1e6868b044",
+      "release_sha256": "6e8f867b28301a71bf49b6f2379abee98cb7ca78a345a2d43db8dd1e6868b044",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/oligogym_same_split.py",
+      "source_sha256": "86b94007ca2cc5db57ebd26df9f7aa80dda55999daab84e4864769273ebbf011",
+      "release_sha256": "86b94007ca2cc5db57ebd26df9f7aa80dda55999daab84e4864769273ebbf011",
+      "adaptations": []
+    },
+    {
+      "path": "src/benchmarking/regression_evaluation.py",
+      "source_sha256": "021a6432fb2df392b1d97599772151359bfbaaa135c57da84d6cf0770a6d0df6",
+      "release_sha256": "021a6432fb2df392b1d97599772151359bfbaaa135c57da84d6cf0770a6d0df6",
+      "adaptations": []
+    },
+    {
+      "path": "src/data/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "path": "src/data/datasets.py",
+      "source_sha256": "963e8c80cbe76f1a47aae2e64f4f9fe7d0bbd25beb1bc6820180cce530bad561",
+      "release_sha256": "5d8a9c202a40affc9632dced15e2a5f54516f79bd51094910f7fd1952987f3d1",
+      "adaptations": [
+        "Load the pinned, hash-verified source CSV without an unversioned DatasetDownloader request."
+      ]
+    },
+    {
+      "path": "src/data/grouping.py",
+      "source_sha256": "df8d3c3f0f2d8635862d219b8ae1d240eb9f380c134fcc35f1e877927aa00374",
+      "release_sha256": "df8d3c3f0f2d8635862d219b8ae1d240eb9f380c134fcc35f1e877927aa00374",
+      "adaptations": []
+    },
+    {
+      "path": "src/explainability/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "path": "src/explainability/automl_concepts.py",
+      "source_sha256": "9e19030389a7353615a2d78cf53693d9ef03117a6befa8dcb04262dcb38faa0e",
+      "release_sha256": "9e19030389a7353615a2d78cf53693d9ef03117a6befa8dcb04262dcb38faa0e",
+      "adaptations": []
+    },
+    {
+      "path": "src/explainability/descriptor_provenance.py",
+      "source_sha256": "270d930da42695f1889da69f77ad899473e9fcc6ffdd0954e5ec1467cad622f4",
+      "release_sha256": "270d930da42695f1889da69f77ad899473e9fcc6ffdd0954e5ec1467cad622f4",
+      "adaptations": []
+    },
+    {
+      "path": "src/explainability/evidence_packet.py",
+      "source_sha256": "5e1b01345bdedff2ba1af5f54e44e11479937164a43c5ba611edfd01127f0970",
+      "release_sha256": "5e1b01345bdedff2ba1af5f54e44e11479937164a43c5ba611edfd01127f0970",
+      "adaptations": []
+    },
+    {
+      "path": "src/explainability/prediction_confidence.py",
+      "source_sha256": "6fba1646ece7199dc9dcdc738aa42fedc09fa1d0d9cb3117e8c9213188e84021",
+      "release_sha256": "6fba1646ece7199dc9dcdc738aa42fedc09fa1d0d9cb3117e8c9213188e84021",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/aso_explicit_chemistry_features.py",
+      "source_sha256": "555ddd3dbccc61d1c238240595f6f1179424fce9c82ae65f6acc7ebdf74b25c4",
+      "release_sha256": "555ddd3dbccc61d1c238240595f6f1179424fce9c82ae65f6acc7ebdf74b25c4",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/automl_descriptor_routes.py",
+      "source_sha256": "de2287584fdbaf07da708cbfa52728fe2d182f4dc516ba5441291c8666e4e7fa",
+      "release_sha256": "de2287584fdbaf07da708cbfa52728fe2d182f4dc516ba5441291c8666e4e7fa",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/chemistry_features.py",
+      "source_sha256": "ac2534d59117be34290b5b0e027ca2ac2cf2c16fc5a326a6b692674b3e7000d8",
+      "release_sha256": "ac2534d59117be34290b5b0e027ca2ac2cf2c16fc5a326a6b692674b3e7000d8",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/chemistry_registry.py",
+      "source_sha256": "69cb6994bc0f86beaa33b679ed6c3b30bffd599c7ddb2d499da4fa6ec902be22",
+      "release_sha256": "69cb6994bc0f86beaa33b679ed6c3b30bffd599c7ddb2d499da4fa6ec902be22",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/experimental_context_features.py",
+      "source_sha256": "7ee78041d9d4dbcc77a6329cb317cdb47b74cc23ef741bf2a454f11efd1de45f",
+      "release_sha256": "7ee78041d9d4dbcc77a6329cb317cdb47b74cc23ef741bf2a454f11efd1de45f",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/featurizer.py",
+      "source_sha256": "0b84c56ec09f1b807085a20e731b81856291c0971b9cbbf305d42d23c6098484",
+      "release_sha256": "0b84c56ec09f1b807085a20e731b81856291c0971b9cbbf305d42d23c6098484",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/helm_to_smiles.py",
+      "source_sha256": "2348777cf1d6db6c4e30d453eccd4913ae96e9919a189942a22a16be96c141d0",
+      "release_sha256": "2348777cf1d6db6c4e30d453eccd4913ae96e9919a189942a22a16be96c141d0",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/position_encoding_features.py",
+      "source_sha256": "70491d7137a0d3a61e7f5a53b3e1758a4d33f522722408618c8c5b4fcee375ee",
+      "release_sha256": "70491d7137a0d3a61e7f5a53b3e1758a4d33f522722408618c8c5b4fcee375ee",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/position_reencoding_features.py",
+      "source_sha256": "1aaff6948dae57f5d68fc20667867ef0149f2f04af3f7155383393b7b379f56d",
+      "release_sha256": "1aaff6948dae57f5d68fc20667867ef0149f2f04af3f7155383393b7b379f56d",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/ppb_position_features.py",
+      "source_sha256": "47317e0a5c525e3d923a2b6f586b0f218df8643a57dad685414ebbf3c1912f5f",
+      "release_sha256": "47317e0a5c525e3d923a2b6f586b0f218df8643a57dad685414ebbf3c1912f5f",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/ppb_rule_features.py",
+      "source_sha256": "64f348c9d7f4c93cbf5fbdbe5551f8e12cdc344c9cdb388293814e146c7aa4a8",
+      "release_sha256": "64f348c9d7f4c93cbf5fbdbe5551f8e12cdc344c9cdb388293814e146c7aa4a8",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/protenix_customccd_features.py",
+      "source_sha256": "6ff80e6a53d3f3bb1fa9085082dc40b4dd6d299af54f4f964d2cff879a5e3520",
+      "release_sha256": "6ff80e6a53d3f3bb1fa9085082dc40b4dd6d299af54f4f964d2cff879a5e3520",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/protenix_embedding_features.py",
+      "source_sha256": "fd3a514f33a45aeba4524b753d7699fbaa10be819159796eee506d8799973db4",
+      "release_sha256": "fd3a514f33a45aeba4524b753d7699fbaa10be819159796eee506d8799973db4",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/protenix_sequence_cif_features.py",
+      "source_sha256": "df368bb2ed4dc06685e2da0bfecc90fe08072709453ad514996f040a5eae37b5",
+      "release_sha256": "df368bb2ed4dc06685e2da0bfecc90fe08072709453ad514996f040a5eae37b5",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/secondary_structure_features.py",
+      "source_sha256": "c8eaf44c7c023fe0b18e35a05fc57d922a23af8aa8d95c1e0e84275c6b863982",
+      "release_sha256": "c8eaf44c7c023fe0b18e35a05fc57d922a23af8aa8d95c1e0e84275c6b863982",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/semantic_onehot_features.py",
+      "source_sha256": "429db87fc9c59c18b025b709f705343840bd4a3b640e391609ec10fc0b7e6138",
+      "release_sha256": "429db87fc9c59c18b025b709f705343840bd4a3b640e391609ec10fc0b7e6138",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/sequence_chemistry_interaction_features.py",
+      "source_sha256": "ca28825db1c4b4b9fbcb52818592688fda58998dcbba6b11b2fdbe6d1adf4cc3",
+      "release_sha256": "ca28825db1c4b4b9fbcb52818592688fda58998dcbba6b11b2fdbe6d1adf4cc3",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/structure_descriptor_features.py",
+      "source_sha256": "2277878b66e0df4597db0d31ed5cd586f274e6fd4673ec25a0af576bb28ed252",
+      "release_sha256": "2277878b66e0df4597db0d31ed5cd586f274e6fd4673ec25a0af576bb28ed252",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/unimol_3d_embedding_features.py",
+      "source_sha256": "f11386b8c82d695cdd28cb8efcd3c4e6e275ab8de8878a714b328f16feb39a76",
+      "release_sha256": "f11386b8c82d695cdd28cb8efcd3c4e6e275ab8de8878a714b328f16feb39a76",
+      "adaptations": []
+    },
+    {
+      "path": "src/features/universal_oligo_representation.py",
+      "source_sha256": "5e2566f78b9735663e63de01d0eef7a5bee958131640b4f25b91927c0ae4c3ec",
+      "release_sha256": "5e2566f78b9735663e63de01d0eef7a5bee958131640b4f25b91927c0ae4c3ec",
+      "adaptations": []
+    },
+    {
+      "path": "src/models/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "path": "src/models/xgboost_baseline.py",
+      "source_sha256": "97011954c9c938a7ac44e7162bc4200384de32325c7060c8835a3fea7c8f6bb7",
+      "release_sha256": "97011954c9c938a7ac44e7162bc4200384de32325c7060c8835a3fea7c8f6bb7",
+      "adaptations": []
+    },
+    {
+      "path": "tests/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_automl_concepts.py",
+      "source_sha256": "b21691233ee804733f3be79f8ffe45bccba78e2400e7fc973129cef32daa687a",
+      "release_sha256": "b21691233ee804733f3be79f8ffe45bccba78e2400e7fc973129cef32daa687a",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_automl_descriptor_routes.py",
+      "source_sha256": "1b2f1839fec9152c26e32bb4ed7cb31e6e9c0a4ca92eaf1b23c5246f2050a25a",
+      "release_sha256": "1b2f1839fec9152c26e32bb4ed7cb31e6e9c0a4ca92eaf1b23c5246f2050a25a",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_automl_mechanism_axes.py",
+      "source_sha256": "57c9d0c6542804597c95d925bf1e1162f33192a027fa80073d13055957e85f97",
+      "release_sha256": "57c9d0c6542804597c95d925bf1e1162f33192a027fa80073d13055957e85f97",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_feature_automl_nested.py",
+      "source_sha256": "cb7d0c8877dd8695603be5cc2271f3ba33977866250153a0f98aa228fb1dc851",
+      "release_sha256": "cb7d0c8877dd8695603be5cc2271f3ba33977866250153a0f98aa228fb1dc851",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_feature_automl_policies.py",
+      "source_sha256": "f27eb9cb2348c498c181adc6183945bbf1a9fa15b244396529f3250a0c5ae671",
+      "release_sha256": "f27eb9cb2348c498c181adc6183945bbf1a9fa15b244396529f3250a0c5ae671",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_position_reencoding_features.py",
+      "source_sha256": "1df56a7be4fd7cf676a9db47cfc4474473ae3fafadbe178a94586d7f3b34eb27",
+      "release_sha256": "1df56a7be4fd7cf676a9db47cfc4474473ae3fafadbe178a94586d7f3b34eb27",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_regression_evaluation.py",
+      "source_sha256": "cc105830a1b36876c6d4ef7dd0aeeb07f3e5c87e506f6cd08fc5a2d28d2916ff",
+      "release_sha256": "cc105830a1b36876c6d4ef7dd0aeeb07f3e5c87e506f6cd08fc5a2d28d2916ff",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_resource_guard.py",
+      "source_sha256": "bffde10ab315c970b5e56ddaf20e3d7be516f23d7f6eae71437d838f505230c1",
+      "release_sha256": "bffde10ab315c970b5e56ddaf20e3d7be516f23d7f6eae71437d838f505230c1",
+      "adaptations": []
+    },
+    {
+      "path": "tests/test_sequence_chemistry_interaction_features.py",
+      "source_sha256": "8270749d00d1fdf84e638d150351c5f07f6a1b7b26a04ee31cedca6dfd416703",
+      "release_sha256": "8270749d00d1fdf84e638d150351c5f07f6a1b7b26a04ee31cedca6dfd416703",
+      "adaptations": []
+    }
+  ],
+  "external_import_roots": [
+    "RNA",
+    "__future__",
+    "argparse",
+    "ast",
+    "build_focused_story_v10_evidence",
+    "collections",
+    "concurrent",
+    "copy",
+    "csv",
+    "dataclasses",
+    "datetime",
+    "functools",
+    "hashlib",
+    "itertools",
+    "joblib",
+    "json",
+    "math",
+    "matplotlib",
+    "numpy",
+    "oligogym",
+    "os",
+    "pandas",
+    "pathlib",
+    "plot_endpoint_interpretability_landscape",
+    "pytest",
+    "random",
+    "rdkit",
+    "re",
+    "scipy",
+    "scripts",
+    "shutil",
+    "signal",
+    "sklearn",
+    "src",
+    "subprocess",
+    "sys",
+    "tempfile",
+    "time",
+    "torch",
+    "types",
+    "typing",
+    "unittest",
+    "xgboost",
+    "zipfile"
+  ],
+  "entrypoints": [
+    "benchmark_feature_automl_nested",
+    "benchmark_aso_atlas2_four_stage_factorial",
+    "compare_oligogym_neurips2025_same_splits",
+    "reproduce_oligogym_neurips2025_table3",
+    "analyze_expert_rule_paper",
+    "analyze_expert_rule_scale",
+    "analyze_expert_rule_capacity",
+    "export_feature_automl_explanations",
+    "run_nested_automl_family_ablation",
+    "build_tlr8_automl_case",
+    "analyze_endpoint_interpretability_landscape",
+    "build_focused_story_v10_evidence",
+    "export_reader_case_evidence_v11",
+    "plot_literature_focused_v12",
+    "plot_reader_controls_v11",
+    "run_with_resource_guard",
+    "audit_feature_automl_splits",
+    "build_integrated_auto_system_report",
+    "build_paper_interpretability_agent",
+    "plot_author_revision_v15"
+  ],
+  "tests": [
+    "test_automl_descriptor_routes",
+    "test_automl_concepts",
+    "test_automl_mechanism_axes",
+    "test_feature_automl_nested",
+    "test_feature_automl_policies",
+    "test_sequence_chemistry_interaction_features",
+    "test_position_reencoding_features",
+    "test_regression_evaluation",
+    "test_resource_guard"
+  ],
+  "scientific_inputs": [
+    {
+      "path": "outputs/expert_rule_scale_v1/expert_rule_scale/oof_predictions.csv.gz",
+      "sha256": "81c31ac614420a5acde503c0bddc7cf384fcbeeb38bc4827602bdbf010526291"
+    },
+    {
+      "path": "outputs/expert_rule_scale_v1/analysis/policy_endpoint_metrics.csv",
+      "sha256": "61b824840704a326714c23c4966b4dae6fe036c9aaedd22109a0f10c27db1fb0"
+    },
+    {
+      "path": "outputs/expert_rule_capacity_v1/analysis/policy_endpoint_metrics.csv",
+      "sha256": "324e47c433fcf767174cee2e8a5f90399f9613f9ccc55e9c67d2b4803450891a"
+    },
+    {
+      "path": "outputs/expert_rule_capacity_v1/analysis/selector_vs_current_paired_tests.csv",
+      "sha256": "34e7fef2fbc2e164f39e48aa57e95fe943fb77087bc0987768f08b9cf121bb0a"
+    },
+    {
+      "path": "outputs/integrated_auto_system_v1/report/endpoint_stage_metrics.csv",
+      "sha256": "ee67bb729eab2ade432714c09ccfb9cc368d137eb301948b3e000afd20339993"
+    },
+    {
+      "path": "outputs/oligogym_neurips2025_same_split/same_split_predictions.csv",
+      "sha256": "751ec917764e03fceff995bf5cbac90c0596c9aeb72778d48461c0dfb6e30266"
+    },
+    {
+      "path": "outputs/aso_atlas2_four_stage_factorial_v1/full/oof_predictions.csv.gz",
+      "sha256": "8ead03b5422e76dc9458f50e773c44ddc27ef017dc31a878ed5e817e5e1f94a5"
+    },
+    {
+      "path": "outputs/transfer_learning_audit/oligogym_sequence_similarity_clusters_source_complete_v2.csv",
+      "sha256": "7ba380c59a9013406534a27801755e713dcc959747a690b94277cb112f91a9ff"
+    }
+  ],
+  "note": "Import closure is static and is not proof of runtime or full scientific reproduction."
+}

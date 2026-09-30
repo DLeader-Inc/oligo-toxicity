@@ -1,0 +1,152 @@
+{
+  "schema_version": "mechanism_informed_nested_policy_v2",
+  "policy": "expert_rule_fixed_deep",
+  "dataset": "rat_hepatic",
+  "outer_partition": 3,
+  "outer_train_rows": 572,
+  "outer_test_rows": 142,
+  "outer_train_groups": 29,
+  "outer_test_groups": 7,
+  "outer_group_overlap": 0,
+  "selected_route": "legacy_fixed_50_50",
+  "selected_components": [
+    "legacy_branch_a",
+    "legacy_branch_b"
+  ],
+  "selected_weights": [
+    0.5,
+    0.5
+  ],
+  "selected_candidate": "deep_regularized_control",
+  "selected_xgboost_params": {
+    "n_estimators": 600,
+    "max_depth": 5,
+    "learning_rate": 0.02,
+    "min_child_weight": 5,
+    "subsample": 0.8,
+    "colsample_bytree": 0.7,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.2
+  },
+  "selected_transform": "log1p",
+  "inverse_transform": "expm1",
+  "model_output_scale": "log1p(y)",
+  "treeshap_scale": "log1p(y)",
+  "selection_uses_outer_test": false,
+  "seed_values": [
+    160348,
+    168267,
+    176186,
+    184105,
+    192024
+  ],
+  "selection_audit": {
+    "selected_reason": "predeclared expert A/B and fixed capacity with outer-train-only scale rule; no inner candidate choice",
+    "pareto_candidates": 1,
+    "one_se_candidates": 1
+  },
+  "scale_rule": {
+    "kind": "outer_train_rule",
+    "reason": "nonnegative_skewness_above_2",
+    "minimum": 13.0,
+    "fisher_pearson_skewness": 4.540097629451049,
+    "threshold": 2.0,
+    "selected_transform": "log1p",
+    "reason_detail": "predeclared expert A/B and deep_regularized_control; target scale determined only from outer-train labels"
+  },
+  "inner_cache_source": "/home/z/rna_toxi_model/outputs/mechanism_informed_automl_nested_v1/full_automl/fold_checkpoints/rat_hepatic__partition3__inner_scores.csv.gz",
+  "reused_compatible_outer_artifacts_from": null,
+  "models": [
+    {
+      "member": 1,
+      "seed": 160348,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_1__legacy_branch_a.joblib",
+      "sha256": "f3c5ecd11122daf7792f5e6c31ebfa7ede94866459dbe1bf21f67af78ebdadb0",
+      "feature_count": 1091
+    },
+    {
+      "member": 1,
+      "seed": 160348,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_1__legacy_branch_b.joblib",
+      "sha256": "f4a826b396229ffd122ee6ed77148e213875a978bab2f9e963fd0b0d363bd73c",
+      "feature_count": 833
+    },
+    {
+      "member": 2,
+      "seed": 168267,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_2__legacy_branch_a.joblib",
+      "sha256": "d3a3e2dacf7f1f18a5aa74c4dd77b79558c99f059802b23e61878bfad33cb1f2",
+      "feature_count": 1091
+    },
+    {
+      "member": 2,
+      "seed": 168267,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_2__legacy_branch_b.joblib",
+      "sha256": "4d55b19f8fc04b6c6ea789b83a2304a4f682efc4be6d046b9c8410a50da20fbd",
+      "feature_count": 833
+    },
+    {
+      "member": 3,
+      "seed": 176186,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_3__legacy_branch_a.joblib",
+      "sha256": "87ce5dce1357168365a0eb45f55a1f568f5a570cf6e18abb7e0c7119e5984897",
+      "feature_count": 1091
+    },
+    {
+      "member": 3,
+      "seed": 176186,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_3__legacy_branch_b.joblib",
+      "sha256": "6941f917d6bed60b3244c5190c7108a3b9de00b454096c740d15aff9c3ea92c0",
+      "feature_count": 833
+    },
+    {
+      "member": 4,
+      "seed": 184105,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_4__legacy_branch_a.joblib",
+      "sha256": "9fbb6e1b5702da88e6b5b242aaed1faf4d8ebffdcc8b1acba82e194e71307d8b",
+      "feature_count": 1091
+    },
+    {
+      "member": 4,
+      "seed": 184105,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_4__legacy_branch_b.joblib",
+      "sha256": "df6ac97c6358275b06908b50b01556fccc524b99da1ec395fc77a8082090be9a",
+      "feature_count": 833
+    },
+    {
+      "member": 5,
+      "seed": 192024,
+      "component": "legacy_branch_a",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_5__legacy_branch_a.joblib",
+      "sha256": "a4cb762042892a26d134f6ff317d67b7f2bdd1a121256bfc7e036bd06e8a0c02",
+      "feature_count": 1091
+    },
+    {
+      "member": 5,
+      "seed": 192024,
+      "component": "legacy_branch_b",
+      "weight": 0.5,
+      "path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/member_5__legacy_branch_b.joblib",
+      "sha256": "ed1cd664ea718f10a7640ac87b97f3ac9d53b5ffcfe49fc82e03f19fe498f728",
+      "feature_count": 833
+    }
+  ],
+  "membership_path": "/home/z/rna_toxi_model/outputs/expert_rule_capacity_v1/fixed_deep/outer_models/rat_hepatic/partition_3/membership.json"
+}

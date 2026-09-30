@@ -1,0 +1,411 @@
+{
+  "schema_version": "paper_interpretability_agent_packet_v1",
+  "case": {
+    "dataset": "tlr7_immunotox",
+    "canonical_endpoint": "tlr8_potentiation",
+    "row_index": 184,
+    "selection_rule": "exact HELM and canonical sequence absent from every contributing outer-train member; >=2 eligible partitions; standardized absolute residual nearest endpoint median; ties by nearest measured analogue similarity then row index",
+    "eligible_outer_partitions": 3,
+    "outer_partition_ids": "[1, 4, 5]",
+    "endpoint_residual_median": 0.42849849871262213,
+    "standardized_absolute_residual": 0.42849849871262213,
+    "helm": "RNA1{m(G)[sp].m(U)[sp].m(C)[sp].m(C)[sp].m(G)[sp].d(T)[sp].d(A)[sp].d(C)[sp].d(C)[sp].d(T)[sp].d(C)[sp].d(C)[sp].d(A)[sp].d(C)[sp].d(C)[sp].m(C)[sp].m(A)[sp].m(C)[sp].m(C)[sp].m(G)}$$$$",
+    "sequence": "GTCCGTACCTCCACCCACCG",
+    "modification_pattern": "OOOOODDDDDDDDDDOOOOO",
+    "observed": 1.7,
+    "prediction": 1.2706149299939473,
+    "response_direction": "higher value indicates stronger TLR8 potentiation",
+    "label_unit": "relative reporter response; R848=1.0",
+    "source_citation": "Alharbi et al. 2020, Nucleic Acids Res. 48:7052",
+    "nearest_analogue_row_index": 70,
+    "contrast_row_index": 144,
+    "contrast_kind": "same_chemistry_outcome_divergent_sequence_contrast"
+  },
+  "training_data": {
+    "dataset": "tlr7_immunotox",
+    "endpoint": "TLR8 potentiation",
+    "endpoint_zh": "TLR8 增强",
+    "source_dataset_rows": 192,
+    "source": "Alharbi et al. 2020",
+    "source_id": "ALHARBI2020",
+    "assay_or_collection_context": "100 nM 2′OMe gapmers; HEK293-TLR8 NF-κB reporter; R848=1.0",
+    "assay_or_collection_context_zh": "100 nM 2′OMe gapmer；HEK293-TLR8 NF-κB reporter；R848=1.0",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32544249/",
+    "row_provenance_limit": "publication/dataset level; exact paper table row not asserted unless recorded",
+    "validation_scope": "five grouped outer partitions; outer test contains training-unseen assigned groups"
+  },
+  "descriptor_registry": {
+    "feature_count": 1918,
+    "family_counts": {
+      "chemical_modification": 1089,
+      "registry": 587,
+      "motif": 242
+    },
+    "source_count": 8,
+    "database_sha256": "869a1bb7f395233d74821bb505dd7b7822be3b310d4ed48a5a7b9b81962fd01c",
+    "source_database_sha256": "0dddefa25e613e0161373ff5b3c0839ef52799cd30f3fb79cd94d8ccb5c62491",
+    "boundary": "papers motivate descriptor concepts; project code defines the actual 1,918 dimensions"
+  },
+  "endpoint_context": {
+    "source_rows": 192,
+    "unique_modification_patterns": 1,
+    "modification_patterns": {
+      "OOOOODDDDDDDDDDOOOOO": 192
+    },
+    "descriptive_trends": [
+      {
+        "feature": "T_fraction",
+        "spearman": 0.4680952454138957,
+        "p_value_descriptive_unadjusted": 7.582393452140024e-12,
+        "unique_values": 13,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      },
+      {
+        "feature": "G_fraction",
+        "spearman": -0.4658255505610203,
+        "p_value_descriptive_unadjusted": 9.85524796871755e-12,
+        "unique_values": 10,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      },
+      {
+        "feature": "C_fraction",
+        "spearman": -0.11958256159375845,
+        "p_value_descriptive_unadjusted": 0.09851455123178297,
+        "unique_values": 12,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      },
+      {
+        "feature": "TCC_count",
+        "spearman": -0.10372008681627135,
+        "p_value_descriptive_unadjusted": 0.1522391208479884,
+        "unique_values": 4,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      },
+      {
+        "feature": "TT_count",
+        "spearman": 0.419760136548951,
+        "p_value_descriptive_unadjusted": 1.3555889242743878e-09,
+        "unique_values": 8,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      },
+      {
+        "feature": "TG_count",
+        "spearman": -0.05322759490702094,
+        "p_value_descriptive_unadjusted": 0.4634077748190255,
+        "unique_values": 6,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      },
+      {
+        "feature": "GG_count",
+        "spearman": -0.4292814489448887,
+        "p_value_descriptive_unadjusted": 5.20029782454339e-10,
+        "unique_values": 6,
+        "claim_boundary": "descriptive association in the complete source endpoint; not held-out performance or causality"
+      }
+    ],
+    "family_ablation": [
+      {
+        "dataset": "tlr7_immunotox",
+        "ablation_family": "chemical_modification",
+        "spearman": 0.7258261753184121,
+        "raw_r2": 0.5366142857543105,
+        "rmse": 0.6354181981660073,
+        "rmse_over_y_std": 0.6679311663289355,
+        "outer_partitions": 5,
+        "full_spearman": 0.7091803230446718,
+        "full_raw_r2": 0.5294402061024581,
+        "full_rmse_over_y_std": 0.6715247669973325,
+        "delta_spearman_vs_full": 0.01664585227374027,
+        "delta_raw_r2_vs_full": 0.00717407965185235
+      },
+      {
+        "dataset": "tlr7_immunotox",
+        "ablation_family": "motif",
+        "spearman": 0.6425064738317486,
+        "raw_r2": 0.4233149582016387,
+        "rmse": 0.730506043371389,
+        "rmse_over_y_std": 0.7556634228947005,
+        "outer_partitions": 5,
+        "full_spearman": 0.7091803230446718,
+        "full_raw_r2": 0.5294402061024581,
+        "full_rmse_over_y_std": 0.6715247669973325,
+        "delta_spearman_vs_full": -0.06667384921292319,
+        "delta_raw_r2_vs_full": -0.1061252479008194
+      },
+      {
+        "dataset": "tlr7_immunotox",
+        "ablation_family": "registry",
+        "spearman": 0.6401386463339248,
+        "raw_r2": 0.4162580783343159,
+        "rmse": 0.716539928836054,
+        "rmse_over_y_std": 0.7516181030135648,
+        "outer_partitions": 5,
+        "full_spearman": 0.7091803230446718,
+        "full_raw_r2": 0.5294402061024581,
+        "full_rmse_over_y_std": 0.6715247669973325,
+        "delta_spearman_vs_full": -0.06904167671074701,
+        "delta_raw_r2_vs_full": -0.11318212776814224
+      }
+    ]
+  },
+  "query_sequence_context": {
+    "T_fraction": 0.15,
+    "G_fraction": 0.15,
+    "C_fraction": 0.55,
+    "TCC_count": 2,
+    "TT_count": 0,
+    "TG_count": 0,
+    "GG_count": 0
+  },
+  "same_model_evidence": {
+    "member_count": 15,
+    "mean_expected_value": 2.2208534797032673,
+    "mean_prediction": 1.2706149299939473,
+    "mean_signed_contribution_sum": -0.9502386162970272,
+    "max_additivity_residual": 5.933784450462554e-07,
+    "family_shap_sums": [
+      {
+        "family": "chemical_modification",
+        "mean_signed_contribution": -0.13598987735284282,
+        "sd_signed_contribution": 0.1046086918152637,
+        "minimum": -0.2510253880855082,
+        "maximum": 0.022746644684958517,
+        "members": 15,
+        "negative_sign_consistency": 0.8666666666666667
+      },
+      {
+        "family": "motif",
+        "mean_signed_contribution": -0.5144687431287429,
+        "sd_signed_contribution": 0.10110170076468987,
+        "minimum": -0.6189963879943429,
+        "maximum": -0.3654078585132069,
+        "members": 15,
+        "negative_sign_consistency": 1.0
+      },
+      {
+        "family": "registry",
+        "mean_signed_contribution": -0.29977999581543907,
+        "sd_signed_contribution": 0.02694638662291643,
+        "minimum": -0.35493278034846226,
+        "maximum": -0.2550871181992989,
+        "members": 15,
+        "negative_sign_consistency": 1.0
+      }
+    ],
+    "concept_shap_sums": [
+      {
+        "family": "motif",
+        "concept": "sequence_motif_and_position",
+        "mean_signed_contribution": -0.5168107650018923,
+        "sd_signed_contribution": 0.08478284316275488,
+        "members": 15,
+        "sign_consistency": 1.0
+      },
+      {
+        "family": "registry",
+        "concept": "sequence_motif_and_position",
+        "mean_signed_contribution": -0.2574615698645927,
+        "sd_signed_contribution": 0.024512206424214533,
+        "members": 15,
+        "sign_consistency": 1.0
+      },
+      {
+        "family": "chemical_modification",
+        "concept": "sequence_motif_and_position",
+        "mean_signed_contribution": -0.14349543689042182,
+        "sd_signed_contribution": 0.09791620511319185,
+        "members": 15,
+        "sign_consistency": 0.9333333333333333
+      },
+      {
+        "family": "registry",
+        "concept": "backbone_amount_and_position",
+        "mean_signed_contribution": -0.042318425950846415,
+        "sd_signed_contribution": 0.0074596742455733155,
+        "members": 15,
+        "sign_consistency": 1.0
+      },
+      {
+        "family": "motif",
+        "concept": "literature_linked_or_g_rich_motif",
+        "mean_signed_contribution": 0.01601841342304996,
+        "sd_signed_contribution": 0.015390633978428778,
+        "members": 15,
+        "sign_consistency": 1.0
+      },
+      {
+        "family": "motif",
+        "concept": "sequence_composition",
+        "mean_signed_contribution": -0.01367639154990062,
+        "sd_signed_contribution": 0.005721046954803779,
+        "members": 15,
+        "sign_consistency": 1.0
+      },
+      {
+        "family": "chemical_modification",
+        "concept": "literature_linked_or_g_rich_motif",
+        "mean_signed_contribution": 0.007530343956022833,
+        "sd_signed_contribution": 0.009442922635507216,
+        "members": 15,
+        "sign_consistency": 0.7333333333333333
+      },
+      {
+        "family": "chemical_modification",
+        "concept": "backbone_amount_and_position",
+        "mean_signed_contribution": -2.4784418443835986e-05,
+        "sd_signed_contribution": 4.615045570388991e-05,
+        "members": 15,
+        "sign_consistency": 0.26666666666666666
+      },
+      {
+        "family": "chemical_modification",
+        "concept": "cet_or_modified_base_context",
+        "mean_signed_contribution": 0.0,
+        "sd_signed_contribution": 0.0,
+        "members": 15,
+        "sign_consistency": 0.0
+      },
+      {
+        "family": "chemical_modification",
+        "concept": "gapmer_architecture_and_position",
+        "mean_signed_contribution": 0.0,
+        "sd_signed_contribution": 0.0,
+        "members": 15,
+        "sign_consistency": 0.0
+      },
+      {
+        "family": "chemical_modification",
+        "concept": "lna_amount_and_position",
+        "mean_signed_contribution": 0.0,
+        "sd_signed_contribution": 0.0,
+        "members": 15,
+        "sign_consistency": 0.0
+      },
+      {
+        "family": "motif",
+        "concept": "gapmer_architecture_and_position",
+        "mean_signed_contribution": 0.0,
+        "sd_signed_contribution": 0.0,
+        "members": 15,
+        "sign_consistency": 0.0
+      }
+    ],
+    "case_family_ablation": [
+      {
+        "outer_partition": 1,
+        "ablation_family": "registry",
+        "prediction": 1.46163866519928,
+        "pred_policy": 1.4078014135360717,
+        "ablation_minus_full": 0.05383725166320841
+      },
+      {
+        "outer_partition": 1,
+        "ablation_family": "motif",
+        "prediction": 1.8712986588478089,
+        "pred_policy": 1.4078014135360717,
+        "ablation_minus_full": 0.4634972453117372
+      },
+      {
+        "outer_partition": 1,
+        "ablation_family": "chemical_modification",
+        "prediction": 1.4527404308319092,
+        "pred_policy": 1.4078014135360717,
+        "ablation_minus_full": 0.04493901729583749
+      },
+      {
+        "outer_partition": 4,
+        "ablation_family": "registry",
+        "prediction": 1.2841973781585694,
+        "pred_policy": 1.1703526616096496,
+        "ablation_minus_full": 0.11384471654891981
+      },
+      {
+        "outer_partition": 4,
+        "ablation_family": "motif",
+        "prediction": 1.617907166481018,
+        "pred_policy": 1.1703526616096496,
+        "ablation_minus_full": 0.4475545048713685
+      },
+      {
+        "outer_partition": 4,
+        "ablation_family": "chemical_modification",
+        "prediction": 1.2901075959205628,
+        "pred_policy": 1.1703526616096496,
+        "ablation_minus_full": 0.11975493431091322
+      },
+      {
+        "outer_partition": 5,
+        "ablation_family": "registry",
+        "prediction": 1.229642879962921,
+        "pred_policy": 1.2336907148361207,
+        "ablation_minus_full": -0.004047834873199596
+      },
+      {
+        "outer_partition": 5,
+        "ablation_family": "motif",
+        "prediction": 1.5965324282646178,
+        "pred_policy": 1.2336907148361207,
+        "ablation_minus_full": 0.36284171342849714
+      },
+      {
+        "outer_partition": 5,
+        "ablation_family": "chemical_modification",
+        "prediction": 1.331626260280609,
+        "pred_policy": 1.2336907148361207,
+        "ablation_minus_full": 0.09793554544448835
+      }
+    ]
+  },
+  "analogues": [
+    {
+      "role": "nearest_measured_analogue",
+      "row_index": 70,
+      "sequence": "GGTCCATACCCAAGGCATCC",
+      "measured": 1.0,
+      "sequence_identity": 0.6,
+      "chemistry_identity": 1.0,
+      "T_fraction": 0.15,
+      "G_fraction": 0.2,
+      "TCC_count": 2,
+      "TT_count": 0,
+      "TG_count": 0,
+      "GG_count": 2,
+      "exact_sequence_match": false,
+      "exact_input_match": false,
+      "citation": "Alharbi et al. 2020, Nucleic Acids Res. 48:7052"
+    },
+    {
+      "role": "informative_contrast",
+      "row_index": 144,
+      "sequence": "TCCCATCCCTTCTGCTGCCA",
+      "measured": 3.95,
+      "sequence_identity": 0.5,
+      "chemistry_identity": 1.0,
+      "T_fraction": 0.3,
+      "G_fraction": 0.1,
+      "TCC_count": 2,
+      "TT_count": 1,
+      "TG_count": 2,
+      "GG_count": 0,
+      "exact_sequence_match": false,
+      "exact_input_match": false,
+      "citation": "Alharbi et al. 2020, Nucleic Acids Res. 48:7052"
+    }
+  ],
+  "reviewed_literature_ids": [
+    "E01",
+    "E02",
+    "E04",
+    "E05",
+    "E06",
+    "E07"
+  ],
+  "claim_boundaries": [
+    "source-wide trends are descriptive associations, not causal effects",
+    "TreeSHAP explains fitted model dependence relative to member baselines",
+    "family deletion measures functional dependence after refitting, not intervention biology",
+    "the endpoint has one chemistry architecture and cannot identify cross-chemistry effects",
+    "reporter potentiation is not clinical immunotoxicity",
+    "similarity is analogue/applicability evidence only"
+  ]
+}

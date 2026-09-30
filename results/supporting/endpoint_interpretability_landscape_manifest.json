@@ -1,0 +1,13 @@
+{
+  "schema_version": "endpoint_interpretability_landscape_v1",
+  "endpoints": 9,
+  "source_rows": 13304,
+  "matched_pairs": 75235,
+  "same_sequence_required": true,
+  "atlas_recorded_context_matched": true,
+  "oligogym_row_context_available": false,
+  "direct_trend_scope": "measured descriptive association; exact replicates median-collapsed and repeated-edit summaries weighted once per base sequence",
+  "oof_pair_scope": "both records predicted by the same source-protocol outer model; not a new exact-sequence-grouped validation",
+  "model_scope": "source-protocol OOF pair recovery, outer-held-out TreeSHAP aggregate and refitted family deletion",
+  "causal_claim": false
+}

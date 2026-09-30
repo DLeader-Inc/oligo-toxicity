@@ -1,0 +1,27 @@
+{
+  "schema_version": "expert_rule_capacity_analysis_v1",
+  "outer_rows_per_policy": 14450,
+  "outer_partitions_per_policy": 45,
+  "policies": [
+    "fixed_ultra",
+    "fixed_compact",
+    "fixed_conservative",
+    "fixed_current_balanced",
+    "fixed_deep",
+    "capacity_inner_best",
+    "capacity_guarded"
+  ],
+  "inference_unit": "nine endpoints after averaging five paired outer-fold differences",
+  "statistics": "two-sided exact 2^9 sign-flip; endpoint bootstrap; Holm across six candidates x two primary metrics",
+  "bootstrap_replicates": 200000,
+  "oof_sha256": {
+    "fixed_ultra": "25d189f5c50df7f92e3a2a94e41d1b9cd291ce12479848d97256f14d49ead60d",
+    "fixed_compact": "a2b47506ebe8f6f5b681c125a4ae47e9b1cc66830581f4cf48844295c4459ee2",
+    "fixed_conservative": "b32f3b13c1bc292e74cc4504cd911d8eb9ab9be09646db62bf9a79bb40d85eac",
+    "fixed_current_balanced": "81c31ac614420a5acde503c0bddc7cf384fcbeeb38bc4827602bdbf010526291",
+    "fixed_deep": "ec3897e1136b3bfad0605d5cb73e474412dbc4a92c3b761bbf0a879e35a0fbd0",
+    "capacity_inner_best": "0890ffc5ca64864a79ec5329e06b6f8bceaa1acf8498c375a76853a81681e654",
+    "capacity_guarded": "dfc9a8ac55f30a4c99e9c5dc4fa3add68fee4179421cca166e0b6d385251c544"
+  },
+  "development_timing_boundary": "capacity policies were specified after reviewing earlier outer-policy results; estimates are strict grouped retrospective development results, not independent confirmation"
+}

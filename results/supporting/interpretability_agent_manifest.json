@@ -1,0 +1,27 @@
+{
+  "schema_version": "paper_interpretability_agent_manifest_v1",
+  "generated_at": "2026-08-30T13:33:54.868113+00:00",
+  "status": "PASS",
+  "case": "tlr8_potentiation_row184",
+  "descriptor_features": 1918,
+  "descriptor_sources": 8,
+  "training_endpoints": 9,
+  "artifacts": {
+    "AGENT_EXPLANATION.md": "63db13a2c0a69a1d23930b561a9a10033d572235120e034f04af3195dd44e4d4",
+    "AGENT_EXPLANATION_zh.md": "a1cf75ef0c9c0cc02a9c9215dce5916a448ecd519812214e30db9f174f60cfbc",
+    "agent_round_1_audit.json": "6e57e86e923db72bb21fbe96f14bd59394478f14433b2fec8e178ea1e1653446",
+    "case_story_packet.json": "ac715aa73d5e0228fcc02d089307a224cb515cc99aa31c14aa641d9a9fd958fb",
+    "descriptor_provenance_database.csv": "869a1bb7f395233d74821bb505dd7b7822be3b310d4ed48a5a7b9b81962fd01c",
+    "descriptor_source_database.csv": "0dddefa25e613e0161373ff5b3c0839ef52799cd30f3fb79cd94d8ccb5c62491",
+    "run_state.json": "b2089df8da17be32490b42def2d51be0bd0dda949280344bd70981efe27df1f4",
+    "tlr8_case_concept_shap_sums.csv": "bdec3af51f768fb97c4e44ef9683623ca1fa2228fca0a4378c21562a6715ccd3",
+    "tlr8_case_family_ablation.csv": "1e71b0f10e9993723fdb0a45240715f902d01b2d7d332af8ec81d21895babf7b",
+    "tlr8_case_family_shap_sums.csv": "20b0c5c73654ce524f742e691f85352c9f49797670f7ea4be12d4f695dfaa1d3",
+    "tlr8_case_reader_analogues.csv": "7c53a5e52c96bcaf68982028fb04b353da7943233317c50b51859ec1a6174a5e",
+    "tlr8_endpoint_descriptive_trends.csv": "b17ae5f45ee663339529d91db7f02af72c43ad92cf4a17c4842a6bf9ca465af2",
+    "tlr8_endpoint_family_ablation.csv": "6dcac1b44852e827d0aae0f535f01f8a5e38fbcb5d8f3148660c71cd83ad7cdf",
+    "tlr8_endpoint_sequence_descriptors.csv": "322dc11c2f0e3de2bd828111740195f6a86dd91cf0ad325f4ef6df0041544482",
+    "tool_trace.jsonl": "f41ff908906e7b7a7a07699b023d2f65476918b8bfd9efa236ef13fa1da7c9a7",
+    "training_data_provenance.csv": "99dbb62fc5bbaf396218158ce78783883a29297dcb5dda7a138099ce8a7b43c0"
+  }
+}
