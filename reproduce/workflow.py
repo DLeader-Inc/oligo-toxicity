@@ -38,11 +38,12 @@ def command(stage, device):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("stage", choices=["primary", "source_oligogym", "source_atlas", *POLICIES])
-    parser.add_argument("--device", choices=["cpu", "cuda"], default="cuda")
+    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
     parser.add_argument("--run", action="store_true")
     args = parser.parse_args()
     formal = command(args.stage, args.device)
-    print(json.dumps({"probe": formal + ["--probe"], "formal": formal}, indent=2))
+    prerequisite = [sys.executable, "reproduce/prepare_inputs.py"] if args.stage == "source_oligogym" else None
+    print(json.dumps({"prerequisite": prerequisite, "probe": formal + ["--probe"], "formal": formal}, indent=2))
     if not args.run:
         return
     mem = {line.split(":")[0]: int(line.split()[1]) * 1024 for line in Path("/proc/meminfo").read_text().splitlines() if len(line.split()) >= 2 and line.split()[1].isdigit()}
@@ -57,7 +58,8 @@ def main():
         gpu_limit = min(total for total,used in totals)-6144
     logs = ROOT / "rerun/resources" / args.stage
     logs.mkdir(parents=True, exist_ok=True)
-    for phase, cmd in (("probe", formal + ["--probe"]), ("formal", formal)):
+    phases = ([("prepare_inputs", prerequisite)] if prerequisite else []) + [("probe", formal + ["--probe"]), ("formal", formal)]
+    for phase, cmd in phases:
         guard = [sys.executable, "scripts/run_with_resource_guard.py", "--log-csv", str(logs / (phase + ".csv")),
                  "--summary-json", str(logs / (phase + ".json")), "--min-host-available-gib", "20",
                  "--max-process-rss-gib", "48", "--max-gpu-used-mib", str(gpu_limit), "--", *cmd]

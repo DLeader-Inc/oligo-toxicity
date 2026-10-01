@@ -16,8 +16,12 @@
 Before training, inspect RAM, swap, GPU memory, disk and current processes.
 On the study machine the required headroom is at least 20 GiB host available,
 at most 48 GiB process-tree RSS, at least 6 GiB unused GPU memory, and at least
-20 GiB free disk. The original experiments used a larger GPU host. A small
-CPU-only verification host cannot reproduce those formal runs safely.
+20 GiB free disk. Formal runs require this headroom regardless of whether CPU
+or GPU is used. Smaller hosts can still run bounded inference and unit tests.
+
+CPU is a supported training backend. The restriction above is resource capacity,
+not a requirement for a GPU. The launcher defaults to CPU; `--device cuda`
+requests acceleration explicitly. CPU/GPU weights need not be bitwise identical.
 
 The workflow launcher below checks these requirements and runs a bounded
 probe followed by the formal command under the resource guard. It preserves
@@ -36,6 +40,7 @@ python reproduce/workflow.py primary --device cuda --run
 | Stage | Launcher name | Output and purpose |
 |---|---|---|
 | Source data | `python reproduce/download_data.py` | Exact packaged CSV and Atlas Parquet files |
+| Required cluster input | `python reproduce/prepare_inputs.py` | Rebuild from source rows if absent; verify frozen SHA-256; refuse to overwrite a mismatch |
 | Primary grouped evaluation and full-data refit | `primary` | `outputs/expert_rule_scale_v1/expert_rule_scale` |
 | OligoGym paper-best local replay | `source_oligogym` | Same fixed-seed cluster holdouts, not a recovered original paper seed |
 | Atlas source and XGBoost controls | `source_atlas` | Source patent folds and four representation/model routes |
@@ -46,6 +51,10 @@ python reproduce/workflow.py primary --device cuda --run
 | Fixed and selected capacity | other `expert_rule_*` choices | Capacity controls with the rule scale |
 
 `python reproduce/workflow.py --help` lists the accepted stage names.
+The `source_oligogym --run` stage automatically prepares its clustering
+prerequisite under the same resource guard before probe and formal execution.
+Dry runs print this prerequisite without changing files. Preparation does not
+copy archived predictions or overwrite manuscript reports.
 Controls use the same source-native outer partitions and five seeds. The
 rule scale is fitted only to training labels. Do not select a primary recipe
 using outer-test results or present full-data refits as validation models.
